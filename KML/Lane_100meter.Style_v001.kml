@@ -1,0 +1,2287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+
+<Folder><name>Offset_Lines_100m</name>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>102.95</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 0.000</value></Data>
+		<Data name="End_CH"><value>CH 0.999</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.648066666527,2.00446319088825 109.648066018723,2.00446230338421 109.647973460364,2.00433459063086 109.647863370954,2.00422227333615 109.647701446037,2.0040856141619 109.64760135038,2.00400136778049 109.647360145931,2.00388265222389</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>101.48</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 0.000</value></Data>
+		<Data name="End_CH"><value>CH 0.999</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.648044883654,2.00447917223604 109.647952436616,2.00435161937287 109.647911019559,2.0043046388301 109.647885721965,2.00428110424388 109.647845067712,2.00424221299841 109.647804232468,2.00420647347021 109.647778753882,2.00418609060126 109.647719105256,2.00413638341231 109.647684105257,2.00410638341278 109.647649105258,2.00407638341326 109.647617831345,2.00405032181811 109.647586557431,2.00402426022297 109.647503649903,2.003982806458 109.647348701873,2.00390671408919</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>98.47</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 0.000</value></Data>
+		<Data name="End_CH"><value>CH 0.999</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.648001317907,2.00451113493036 109.647955853513,2.00444840589299 109.647926723133,2.00440821354581 109.647910389119,2.00438567685563 109.647872453631,2.00434264555431 109.647847779099,2.004319690608 109.647808461227,2.00428209232161 109.647769296476,2.00424783185136 109.647731050781,2.00421717083901 109.647684423695,2.00417792191236 109.647649423697,2.0041479219132 109.647599872609,2.00410579600464 109.647556971532,2.00407004510652 109.647479879068,2.00403149887326 109.64739975404,2.00399236804386 109.647364380099,2.00397509239807 109.647325486836,2.00395637505671</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>96.98</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 0.000</value></Data>
+		<Data name="End_CH"><value>CH 0.999</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.647979535033,2.00452711627692 109.647924772988,2.00445155889802 109.647898145183,2.00441481945392 109.647871268019,2.00438217725606 109.647828807666,2.00433898378938 109.647804444665,2.004316318663 109.647775871305,2.00428774530202 109.647740440778,2.00425825207244 109.647697434285,2.00422398397109 109.647667082915,2.0041986911617 109.647632082917,2.00416869116273 109.64759708292,2.00413869116375 109.647569630751,2.00411581435569 109.647542178582,2.00409293754762 109.647467993651,2.00405584508025 109.647422996418,2.00403386968623 109.647383620922,2.00401411217089 109.647358419692,2.00400233221418 109.647339090754,2.00399289249985 109.647313929543,2.00398066030937</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.40</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 0.100</value></Data>
+		<Data name="End_CH"><value>CH 0.199</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.647313929543,2.00398066030937 109.647193984592,2.00392202669695 109.647102893942,2.00387754056327 109.647017777866,2.00383658255497 109.646944777303,2.00380284239387 109.646881839072,2.00377276777782 109.646838851256,2.00375127386899 109.646806249603,2.00373497304178 109.646769182226,2.00371643935253 109.646737542382,2.00370287941851 109.646699182231,2.00368643935291 109.646629182235,2.0036564393533 109.646598599557,2.00364114801369 109.646568016879,2.00362585667408 109.646506606973,2.00359593902634</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.70</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 0.100</value></Data>
+		<Data name="End_CH"><value>CH 0.199</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.647325486836,2.00395637505671 109.647265067779,2.00392659103051 109.647219662785,2.00390466002752 109.647168361911,2.00387936258213 109.647114025327,2.00385184129882 109.647050256489,2.00382168318777 109.646985199444,2.00379165685839 109.646941766236,2.00377161076175 109.64688691214,2.00374501539883 109.646850307886,2.00372671327121 109.646823060166,2.00371308941087 109.646780473373,2.0036917960134 109.646760683074,2.00368331445646 109.646739599228,2.00367343137075 109.646710473377,2.00366179601393 109.646656421737,2.00363863102482 109.646610182042,2.00361665034483 109.646579890704,2.00360150467519 109.646541895953,2.00358299441137 109.646515878622,2.0035703193008</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.25</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 0.100</value></Data>
+		<Data name="End_CH"><value>CH 0.199</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.647348701873,2.00390671408919 109.647323321276,2.00389473898778 109.647288461213,2.00387771430568 109.647260744018,2.00386357879408 109.647230775995,2.00384954245474 109.647203230291,2.00383658255497 109.647179401132,2.00382445240505 109.64714830292,2.00380926490608 109.647117138589,2.00379404511619 109.64709117566,2.00378136554584 109.647059823742,2.00376641502352 109.647028341612,2.00375207258904 109.647008329574,2.00374264848408 109.646965070665,2.0037226828333 109.646925697765,2.00370383038475 109.646894710777,2.00368833689082 109.646873221145,2.00367759207431 109.646827630443,2.00365465137833 109.646803055665,2.0036425093338 109.646770116716,2.00362765513921 109.646733055668,2.00361250933466 109.646714950488,2.0036053538982 109.646679738002,2.00358892140483 109.646663055671,2.00358250933552 109.646616355528,2.00355957766666 109.646589707342,2.00354601377322 109.646552973053,2.00352788642944 109.646534421919,2.00351907984895</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.53</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 0.100</value></Data>
+		<Data name="End_CH"><value>CH 0.199</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.647360145931,2.00388265222389 109.647319760473,2.00386284927792 109.647276002762,2.0038424513026 109.647252825484,2.00383016009719 109.647213682732,2.00381104386901 109.647176876202,2.00379306858688 109.647128322438,2.00376935628357 109.64708478054,2.00374809163548 109.647019894638,2.00371814429627 109.646982007614,2.00370065797747 109.646935465831,2.00367842550418 109.646907295843,2.0036643405098 109.646869266358,2.00364532576739 109.646832175873,2.00362678052479 109.646794765456,2.00361004889631 109.646765225134,2.00359681384642 109.646729035482,2.00358187890767 109.646696945291,2.00356755105646 109.646674346815,2.00355786599538 109.646644929496,2.00354315733564 109.646615512177,2.00352844867591 109.646583427966,2.00351281790622 109.646561707363,2.00350223607396 109.646543693568,2.00349346012265 109.646543693568,2.00349346012265</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>98.49</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 0.200</value></Data>
+		<Data name="End_CH"><value>CH 0.299</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.646506606973,2.00359593902634 109.64618238825,2.00343798630836 109.645678017831,2.00329126035945</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.23</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 0.200</value></Data>
+		<Data name="End_CH"><value>CH 0.299</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.646515878622,2.0035703193008 109.646192076399,2.00341256949454 109.645680833518,2.00326384428653</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.72</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 0.200</value></Data>
+		<Data name="End_CH"><value>CH 0.299</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.646534421919,2.00351907984895 109.646211452695,2.00336173586559 109.64568646489,2.00320901213985</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>101.46</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 0.200</value></Data>
+		<Data name="End_CH"><value>CH 0.299</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.646543693568,2.00349346012265 109.646221140843,2.00333631905048 109.645689280576,2.00318159606611</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>98.41</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 0.300</value></Data>
+		<Data name="End_CH"><value>CH 0.399</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.645678017831,2.00329126035945 109.645640430624,2.00328032589833 109.645166587411,2.00320125424358 109.644880840903,2.00319140091145 109.644801903858,2.00319758548276</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.19</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 0.300</value></Data>
+		<Data name="End_CH"><value>CH 0.399</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.645680833518,2.00326384428653 109.645646097599,2.0032537392915 109.645169176004,2.00317420346525 109.644872910908,2.00316427679943 109.644797635316,2.00317072899261</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.75</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 0.300</value></Data>
+		<Data name="End_CH"><value>CH 0.399</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.64568646489,2.00320901213985 109.645657431548,2.00320056607669 109.64556937095,2.00318691219193 109.645401333129,2.00315641869719 109.645174353189,2.00312010190758 109.644882226464,2.00311002857472 109.644789098231,2.00311701601157</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>101.53</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 0.300</value></Data>
+		<Data name="End_CH"><value>CH 0.399</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.645689280576,2.00318159606611 109.645663098522,2.0031739794687 109.645609043243,2.00316625728656 109.645510718491,2.00314864932524 109.645303940563,2.00311337093204 109.645176941782,2.00309305112824 109.644944806142,2.0030850464548 109.644869472018,2.00308290446204 109.644784829689,2.00309015952071</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>98.52</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 0.400</value></Data>
+		<Data name="End_CH"><value>CH 0.499</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.644801903858,2.00319758548276 109.644559057071,2.00321840091825 109.644423998209,2.003233272446 109.644304182407,2.00324931122901 109.644204870632,2.00326451766255 109.643929416748,2.00333678594395</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.25</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 0.400</value></Data>
+		<Data name="End_CH"><value>CH 0.499</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.644797635316,2.00317072899261 109.644629648281,2.00318512788049 109.644439917187,2.00320409071193 109.644277392935,2.00322597676395 109.64419942655,2.00323791483194 109.643918828511,2.00331153274075</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.70</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 0.400</value></Data>
+		<Data name="End_CH"><value>CH 0.499</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.644789098231,2.00311701601157 109.644656708765,2.00312836368181 109.644487768574,2.00314384330871 109.644397057365,2.00315451521698 109.644219558994,2.00317928282 109.644165566516,2.00318984656574 109.643946075354,2.00324736029255 109.643897652036,2.003261026334</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>101.42</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 0.400</value></Data>
+		<Data name="End_CH"><value>CH 0.499</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.644784829689,2.00309015952071 109.644659935408,2.00310086474756 109.644565921305,2.00310892310132 109.644471456031,2.00311845351718 109.644395522849,2.00312738683446 109.644320858494,2.00313701213786 109.644263834787,2.00314574350367 109.644206803277,2.0031544760642 109.644183094302,2.00315810633898 109.644110802365,2.00317707290741 109.644051572669,2.0031926124561 109.643989422965,2.00320891810046 109.643948307992,2.00321970505642 109.643887063798,2.00323577313045</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.19</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 0.500</value></Data>
+		<Data name="End_CH"><value>CH 0.599</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.643929416748,2.00333678594395 109.643890040128,2.00334711682271 109.643860803154,2.00335478745632 109.643828028489,2.00336338624137 109.643787952347,2.00337820155493 109.643731784018,2.00339896581421 109.643669801664,2.00342187939766 109.643620946736,2.00343985521494 109.643555560379,2.00346411201724 109.6435169809,2.00348153610084 109.643451225156,2.00351123410603 109.643415874208,2.00352720005181 109.643371343216,2.00354731208378 109.643330927567,2.00356652901394 109.643291712914,2.00358660713266 109.643271960306,2.00359672057726 109.643230088143,2.003618265143 109.643197030678,2.00363508495969 109.643153422738,2.00365931159291 109.643109814797,2.00368353822612</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.62</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 0.500</value></Data>
+		<Data name="End_CH"><value>CH 0.599</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.643918828511,2.00331153274075 109.643875798133,2.00332282222227 109.643831763152,2.00333437527255 109.643801365214,2.00334434598276 109.643769285112,2.00335620532783 109.643730358355,2.00337059573811 109.643682669018,2.00338822549178 109.643637379229,2.00340464272913 109.643593820878,2.00342107079679 109.643521178026,2.00344924521115 109.643474411622,2.00347103052445 109.643411640562,2.00349938052427 109.643366228968,2.00351989027305 109.643317964192,2.00354273203091 109.643259823422,2.00357250042674 109.643201918155,2.00360183264962 109.643159663172,2.00362413389063 109.643140093718,2.00363573213656 109.643095789749,2.00366034545295</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.51</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 0.500</value></Data>
+		<Data name="End_CH"><value>CH 0.599</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.643897652036,2.003261026334 109.643870321203,2.00326819687206 109.643826411447,2.00327971706912 109.643803820843,2.00328564395703 109.64372939105,2.00331315910159 109.643699219652,2.00332431283887 109.643664418186,2.00333717821628 109.643616246956,2.00335498611666 109.643593954841,2.00336322704761 109.643565780508,2.00337295149191 109.643525015529,2.00338871247553 109.643489624589,2.00340469648465 109.64344084802,2.00342672599609 109.643388675333,2.00345028933509 109.643351314593,2.00346716298696 109.643311967607,2.00348493370998 109.643274077909,2.00350433344566 109.643215765569,2.00353418968749 109.64317739156,2.00355383739348 109.643141835905,2.00357279531893 109.643113435678,2.00358857322365 109.643087522308,2.00360296954164 109.643067739652,2.00361395990641</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.95</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 0.500</value></Data>
+		<Data name="End_CH"><value>CH 0.599</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.643887063798,2.00323577313045 109.643855214867,2.00324412904067 109.643821351437,2.00325301347622 109.643795751628,2.00325972986193 109.643760740331,2.00327267280965 109.643716537841,2.00328901355033 109.64365529277,2.00331165457832 109.64361149822,2.00332784451199 109.643564466992,2.0033452309781 109.643514833912,2.0033635792947 109.643480096792,2.00337999398907 109.643429625563,2.00340112148055 109.643382675582,2.00342342272156 109.643331796697,2.0034462464577 109.643277876155,2.00347195441933 109.643223412772,2.00349983997464 109.643191419374,2.00351622077295 109.643146498714,2.00353922040113 109.643100106659,2.00356499376707 109.643053714604,2.00359076713302</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.74</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 0.600</value></Data>
+		<Data name="End_CH"><value>CH 0.699</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.643109814797,2.00368353822612 109.643077822101,2.00370502738885 109.64303729521,2.00373224888199 109.643000015833,2.00375728905352 109.642955963691,2.00378687842063 109.642903237807,2.00382165050629 109.642870920788,2.00384362505213 109.642836312255,2.00386494527278 109.642798148317,2.00388940128367 109.6427599505,2.00391278389011 109.64273601382,2.00392777958595 109.642703670029,2.00394844096843 109.642666915157,2.00397252717891 109.642632595702,2.00399501741085 109.642598842297,2.00401713669952 109.64253674442,2.00405783069306 109.642477714697,2.00409598120037 109.642425953603,2.00413043415397 109.642357631135,2.0041742846535</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.81</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 0.600</value></Data>
+		<Data name="End_CH"><value>CH 0.699</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.643095789749,2.00366034545295 109.643073979456,2.00367548543243 109.643036738718,2.00370000941994 109.643005106904,2.00372125618228 109.642969515748,2.0037447366545 109.642933773356,2.00376917018806 109.642914424058,2.00378216691162 109.642868160216,2.00381209542473 109.642838823335,2.00383107372849 109.642807513541,2.00385103440203 109.642781261297,2.00386748073804 109.642740354505,2.00389310776043 109.642719507099,2.00390554033966 109.642686616541,2.00392724616813 109.642641140293,2.00395704767288 109.642606565765,2.00397970506027 109.642582637882,2.00399538548542 109.642557180208,2.00401206841403 109.642523003374,2.00403446518446 109.642496046074,2.00405213084796 109.642470672199,2.00406869152388 109.642430691657,2.00409495891906 109.642389994707,2.00412134012204 109.642373554442,2.00413189175874 109.642343076138,2.00415145324278</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.96</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 0.600</value></Data>
+		<Data name="End_CH"><value>CH 0.699</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.643067739652,2.00361395990641 109.643029655706,2.00363954050045 109.642998581433,2.00366041276881 109.642976306159,2.00367537484079 109.642941032517,2.00369906778197 109.642919954147,2.00371322590626 109.642884872666,2.00373678977517 109.642868102892,2.00374763829982 109.64283896864,2.00376648552149 109.642793064613,2.00379618126781 109.642767955877,2.00381191122745 109.6427335557,2.00383346202829 109.64271881316,2.00384269784028 109.642674046787,2.00387074278876 109.642630692149,2.00389915396103 109.642599940211,2.00391930632887 109.642573962158,2.00393723157688 109.642546965919,2.00395366407026 109.642516448431,2.00397479156174 109.642496471702,2.00398711133802 109.642473019698,2.00400178780085 109.642442274079,2.00402262813773 109.642420781615,2.00403671258476 109.642395211487,2.00405346920721 109.642362433334,2.00407468336844 109.642341559751,2.00408864526583 109.642313966145,2.00410579042129</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.03</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 0.600</value></Data>
+		<Data name="End_CH"><value>CH 0.699</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.643053714604,2.00359076713302 109.643010596982,2.00361914545514 109.642961905787,2.00365243416994 109.642930078755,2.00367381205929 109.642896743278,2.00369543917438 109.642852517848,2.00372547330645 109.642824372851,2.00374368056977 109.642778648733,2.00377325993268 109.642745329589,2.00379403413462 109.642719106107,2.00381056181455 109.64265956348,2.00384786369641 109.642615401456,2.00387680396582 109.642555284751,2.00391619966056 109.642513545364,2.0039435523267 109.642471845949,2.00397127031316 109.642428653583,2.00399918363125 109.642367527248,2.00403924095699 109.642299411148,2.00408295901052</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.90</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 0.700</value></Data>
+		<Data name="End_CH"><value>CH 0.799</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.642357631135,2.0041742846535 109.642314436955,2.00420200739888 109.642268052123,2.00423255235018 109.642214714644,2.00426767569996 109.642175337997,2.0042936056799 109.642133743454,2.00432099616965 109.642089729887,2.00434952441984 109.642050535707,2.00437462801669 109.642015437723,2.00439710802881 109.641975112012,2.00442293636348 109.641928623103,2.00445271218238 109.641893693633,2.00447508426278 109.641847373238,2.00450475214997 109.64173631847,2.00457588194844 109.641667721768,2.00461981765402 109.641601829669,2.00466202107971</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.94</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 0.700</value></Data>
+		<Data name="End_CH"><value>CH 0.799</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.642343076138,2.00415145324278 109.642299805091,2.00417922532332 109.642239383219,2.0042190138298 109.642138207646,2.0042861286237 109.641938670226,2.00441524107164 109.641823778511,2.00448771054226 109.641728640792,2.00454864558364 109.641586971769,2.00463938359887</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.02</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 0.700</value></Data>
+		<Data name="End_CH"><value>CH 0.799</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.642313966145,2.00410579042129 109.642243845103,2.00415232117766 109.642150914392,2.00421243692841 109.642084259137,2.00425633019187 109.641987967707,2.00431781986092 109.641896415243,2.00437650733726 109.641807210279,2.00443402106407 109.641724059014,2.00448727245184 109.641632848979,2.00454569184209 109.641557255968,2.00459410863718</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.06</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 0.700</value></Data>
+		<Data name="End_CH"><value>CH 0.799</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.642299411148,2.00408295901052 109.642180194215,2.00416073849588 109.64210706931,2.00420889209987 109.642017311445,2.00426734863127 109.641874397066,2.00435882811334 109.641737959057,2.00444693230886 109.641611194108,2.00452674727668 109.641542398068,2.00457147115631</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.02</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 0.800</value></Data>
+		<Data name="End_CH"><value>CH 0.899</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.641601829669,2.00466202107971 109.641429262932,2.00477206092777 109.641294810338,2.00485866480291 109.641225432036,2.00490590808115 109.641125052229,2.00497426188812 109.641026566454,2.00504132595185 109.640943330628,2.00509718954667 109.640851660866,2.00516042822193</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.00</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 0.800</value></Data>
+		<Data name="End_CH"><value>CH 0.899</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.641586971769,2.00463938359887 109.641515555958,2.00468512492454 109.641442096105,2.00473217544556 109.641340664481,2.00479714168866 109.641280013264,2.00483598836792 109.641220126843,2.004876768133 109.641145614302,2.00492750758136 109.641081833072,2.00497159834731 109.641013173447,2.0050176934183 109.640936476662,2.00506992023133 109.64088856456,2.00510254606241 109.640836977354,2.00513767446263</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.95</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 0.800</value></Data>
+		<Data name="End_CH"><value>CH 0.899</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.641557255968,2.00459410863718 109.641452365202,2.00466129044014 109.641370348382,2.00471382164012 109.641296629235,2.0047603234325 109.641232909265,2.00480255886201 109.641171261624,2.00484453793512 109.641118219307,2.00488004588422 109.641043189258,2.00493174904528 109.640996212536,2.00496373792967 109.64093716173,2.00500394868356 109.640894033148,2.0050326333227 109.640851250642,2.00506244999499 109.640807610331,2.00509216694398</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.93</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 0.800</value></Data>
+		<Data name="End_CH"><value>CH 0.899</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.641542398068,2.00457147115631 109.641487617648,2.00460655763353 109.641393480754,2.00466685165718 109.641327147116,2.0047093378898 109.641275501744,2.0047427171896 109.64118629678,2.00480257841546 109.641127189902,2.00484179612568 109.641070132231,2.0048806496518 109.641005539353,2.00492464836624 109.640953894373,2.00495986085204 109.640872358776,2.00501532384813 109.640792926819,2.00506941318463</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.81</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 0.900</value></Data>
+		<Data name="End_CH"><value>CH 0.999</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.640851660866,2.00516042822193 109.640526384003,2.00537226384698 109.640415912816,2.00544242144867 109.640291022258,2.00552352433163 109.640099229092,2.00565193131117</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.89</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 0.900</value></Data>
+		<Data name="End_CH"><value>CH 0.999</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.640836977354,2.00513767446263 109.64074231737,2.00520108233084 109.640681521786,2.00524030457043 109.640594632868,2.00529636091124 109.640466019544,2.00537863801713 109.640361555272,2.00544504832589 109.64029808837,2.00548655312156 109.640201408809,2.00555123281847 109.640083928633,2.0056295876635</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.06</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 0.900</value></Data>
+		<Data name="End_CH"><value>CH 0.999</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.640807610331,2.00509216694398 109.640742005957,2.00513684036156 109.640655613685,2.00519257629347 109.64059912256,2.00522902151574 109.640528878667,2.00527433932902 109.640418469717,2.00534465127995 109.640308869321,2.0054148022964 109.640246477723,2.0054556038889 109.640153137803,2.00551856690014 109.640053327716,2.00558490036815</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.14</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 0.900</value></Data>
+		<Data name="End_CH"><value>CH 0.999</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.640792926819,2.00506941318463 109.640678356672,2.00514501983988 109.640546896725,2.00523070355533 109.640468609653,2.00528065264899 109.640356749302,2.00535159975658 109.640226822833,2.00543610713655 109.640099128691,2.0055225250008 109.640038027257,2.00556255672047</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>112.00</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 1.000</value></Data>
+		<Data name="End_CH"><value>CH 1.099</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.640099229092,2.00565193131117 109.639978216758,2.00573121473866 109.639505158627,2.00500579593498</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>105.98</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 1.000</value></Data>
+		<Data name="End_CH"><value>CH 1.099</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.640083928633,2.0056295876635 109.639985772707,2.00569389630257 109.639910724482,2.00558048091429 109.639810598049,2.00542364783013 109.639667952425,2.00520934149691 109.639527704317,2.00499090867657</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>93.95</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 1.000</value></Data>
+		<Data name="End_CH"><value>CH 1.099</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.640053327716,2.00558490036815 109.640000884605,2.00561925942809 109.63993889447,2.00552766218559 109.639902464291,2.00546955610855 109.639855869313,2.00539416568696 109.639811293025,2.00532755785249 109.639755790391,2.00524438862019 109.639713090527,2.00517966712761 109.63966107323,2.00509829364659 109.639623132551,2.00503424853301 109.639572795697,2.00496113415944</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>87.93</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 1.000</value></Data>
+		<Data name="End_CH"><value>CH 1.099</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.640038027257,2.00556255672047 109.640008440553,2.00558194098972 109.639944510575,2.00548622136432 109.639878504944,2.00537942461476 109.639789128831,2.00524587492681 109.639735659578,2.00516482994236 109.639683996012,2.00508400982351 109.639645818804,2.00501956544118 109.639595341387,2.00494624690073</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.09</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 1.100</value></Data>
+		<Data name="End_CH"><value>CH 1.199</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.639505158627,2.00500579593498 109.63942860038,2.00488737176469 109.639011545135,2.00424905371376</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.03</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 1.100</value></Data>
+		<Data name="End_CH"><value>CH 1.199</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.639527704317,2.00499090867657 109.639503621627,2.00495592852399 109.639451256579,2.0048726690684 109.639034369042,2.00423460770864</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.92</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 1.100</value></Data>
+		<Data name="End_CH"><value>CH 1.199</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.639572795697,2.00496113415944 109.639548584197,2.00492596691139 109.639496568975,2.00484326367461 109.639080016857,2.00420571569811</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.86</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 1.100</value></Data>
+		<Data name="End_CH"><value>CH 1.199</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.639595341387,2.00494624690073 109.639571065482,2.00491098610448 109.639519225173,2.00482856097711 109.639102840764,2.0041912696927</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.60</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 1.200</value></Data>
+		<Data name="End_CH"><value>CH 1.299</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.639011545135,2.00424905371376 109.63880517644,2.00393319900395 109.638714005405,2.00378853845563 109.638622834371,2.00364387790732 109.638530378404,2.00347909915732</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.29</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 1.200</value></Data>
+		<Data name="End_CH"><value>CH 1.299</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.639034369042,2.00423460770864 109.638827825698,2.00391848569607 109.638645971735,2.00362993907849 109.638554606235,2.00346710380341</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.66</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 1.200</value></Data>
+		<Data name="End_CH"><value>CH 1.299</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.639080016857,2.00420571569811 109.638873124214,2.00388905907912 109.638692246465,2.00360206141961 109.638603061897,2.00344311309532</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.35</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 1.200</value></Data>
+		<Data name="End_CH"><value>CH 1.299</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.639102840764,2.0041912696927 109.638895773472,2.00387434577004 109.63871538383,2.00358812258963 109.638627289729,2.00343111774116</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.77</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 1.300</value></Data>
+		<Data name="End_CH"><value>CH 1.399</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.638530378404,2.00347909915732 109.638441924926,2.00332145380411 109.638225971821,2.0028822256122 109.638131112113,2.00266172859827</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.37</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 1.300</value></Data>
+		<Data name="End_CH"><value>CH 1.399</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.638554606235,2.00346710380341 109.638465763124,2.00330876403228 109.638250384249,2.0028707037782 109.638182249095,2.00271631280372 109.638156714382,2.00265306894432</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.58</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 1.300</value></Data>
+		<Data name="End_CH"><value>CH 1.399</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.638603061897,2.00344311309532 109.63851343952,2.0032833844875 109.638406324313,2.00306552229835 109.638299209107,2.00284766010919 109.638231878373,2.00269509191832 109.638207918922,2.00263574963625</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.18</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 1.300</value></Data>
+		<Data name="End_CH"><value>CH 1.399</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.638627289729,2.00343111774116 109.638537277717,2.00327069471456 109.638430449627,2.00305341649436 109.638323621536,2.00283613827417 109.638256693013,2.00268448147513 109.638233521193,2.00262708998212</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.68</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 1.400</value></Data>
+		<Data name="End_CH"><value>CH 1.499</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.638131112113,2.00266172859827 109.638075290027,2.00252346958334 109.638044511098,2.00244025274981 109.638008493935,2.00234187543246 109.637901032137,2.00201973372894 109.637887755184,2.00197505194929 109.637843426622,2.0017993965815</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.33</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 1.400</value></Data>
+		<Data name="End_CH"><value>CH 1.499</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.638156714382,2.00265306894432 109.638100417275,2.0025136334071 109.638069793151,2.00243083512091 109.638033927125,2.00233287062197 109.637926733086,2.00201153159332 109.637913746372,2.00196782657526 109.637869836935,2.00179383202633</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.62</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 1.400</value></Data>
+		<Data name="End_CH"><value>CH 1.499</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.638207918922,2.00263574963625 109.638150671771,2.00249396105367 109.638120357257,2.00241199986225 109.638084793506,2.00231486100004 109.637978134983,2.00199512732122 109.637965728748,2.00195337582638 109.63792265756,2.00178270291587</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.27</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 1.400</value></Data>
+		<Data name="End_CH"><value>CH 1.499</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.638233521193,2.00262708998212 109.638175799019,2.00248412487649 109.63814563931,2.00240258223241 109.638110226696,2.00230585618863 109.638003835932,2.00198692518472 109.637991719936,2.00194615045152 109.637949067873,2.00177713836058</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.72</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 1.500</value></Data>
+		<Data name="End_CH"><value>CH 1.599</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.637843426622,2.0017993965815 109.637732737077,2.0013607806633 109.637658310876,2.00090864525953</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.35</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 1.500</value></Data>
+		<Data name="End_CH"><value>CH 1.599</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.637869836935,2.00179383202633 109.637759147673,2.00135521724581 109.637685264651,2.00090638163815</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.61</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 1.500</value></Data>
+		<Data name="End_CH"><value>CH 1.599</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.63792265756,2.00178270291587 109.637811968867,2.00134409041009 109.6377391722,2.00090185439534</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.24</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 1.500</value></Data>
+		<Data name="End_CH"><value>CH 1.599</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.637949067873,2.00177713836058 109.637838379464,2.00133852699183 109.637766125975,2.0008995907739</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.76</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 1.600</value></Data>
+		<Data name="End_CH"><value>CH 1.699</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.637658310876,2.00090864525953 109.637637226651,2.00078055965607 109.637607333105,2.00042188443897 109.63758864256,2.00023121549178 109.637583626961,2.00000138692465</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.37</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 1.600</value></Data>
+		<Data name="End_CH"><value>CH 1.699</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.637685264651,2.00090638163815 109.637664000836,2.00077720504632 109.637649091155,2.00059831249297 109.637634181473,2.00041941993963 109.637615562036,2.00022947638993 109.637610504446,2.00005955842615 109.637610584304,2.00000269486301</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.58</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 1.600</value></Data>
+		<Data name="End_CH"><value>CH 1.699</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.6377391722,2.00090185439534 109.637717549208,2.00077049582623 109.637687878212,2.00041449094034 109.637669400988,2.00022599818567 109.637664423893,2.00005878464095 109.637664498989,2.00000531073976</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.19</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 1.600</value></Data>
+		<Data name="End_CH"><value>CH 1.699</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.637766125975,2.0008995907739 109.637744323394,2.00076714121584 109.637714726581,2.0004120264404 109.637696320464,2.00022425908323 109.637691383616,2.0000583977481 109.637691456332,2.00000661867816</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.71</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 1.700</value></Data>
+		<Data name="End_CH"><value>CH 1.799</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.637583626961,2.00000138692465 109.637584051241,1.99969927386693 109.637587429016,1.99959010434757 109.637627447646,1.99909226581655</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.34</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 1.700</value></Data>
+		<Data name="End_CH"><value>CH 1.799</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.637610584304,2.00000269486301 109.637611009799,1.99969971510768 109.637614354313,1.99959162054373 109.637654122732,1.99909689465433</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.61</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 1.700</value></Data>
+		<Data name="End_CH"><value>CH 1.799</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.637664498989,2.00000531073976 109.637664926915,1.99970059758872 109.637668204909,1.99959465293563 109.637707472905,1.99910615233</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.24</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 1.700</value></Data>
+		<Data name="End_CH"><value>CH 1.799</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.637691456332,2.00000661867816 109.637691885474,1.999701038829 109.637695130207,1.99959616913136 109.637734147992,1.9991107811679</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.70</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 1.800</value></Data>
+		<Data name="End_CH"><value>CH 1.899</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.637627447646,1.99909226581655 109.637635145247,1.99899650635833 109.637687518772,1.99863771843286 109.63772578972,1.99843927256017 109.637781619867,1.99819585113592</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.34</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 1.800</value></Data>
+		<Data name="End_CH"><value>CH 1.899</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.637654122732,1.99909689465433 109.637661945864,1.99899957356412 109.637714102008,1.99864227480819 109.637752165038,1.99844490704386 109.63780749634,1.99820366060304</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.61</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 1.800</value></Data>
+		<Data name="End_CH"><value>CH 1.899</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.637707472905,1.99910615233 109.637715547099,1.99900570797536 109.637767268481,1.99865138755862 109.637804915677,1.99845617601106 109.637859249286,1.9982192795375</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.25</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 1.800</value></Data>
+		<Data name="End_CH"><value>CH 1.899</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.637734147992,1.9991107811679 109.637742347717,1.99900877518083 109.637793851718,1.99865594393371 109.637831290996,1.99846181049453 109.637885125759,1.99822708900483</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.75</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 1.900</value></Data>
+		<Data name="End_CH"><value>CH 1.999</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.637781619867,1.99819585113592 109.637841547472,1.99793456465311 109.637892140272,1.9977562233594 109.637955844645,1.99757726976634 109.638016051506,1.99739816050618 109.638041879954,1.99732422561731</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.36</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 1.900</value></Data>
+		<Data name="End_CH"><value>CH 1.999</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.63780749634,1.99820366060304 109.637867660945,1.99794134078309 109.6379178117,1.99776455771675 109.637965690695,1.99763103188362 109.638036463758,1.9974215292162 109.638066574682,1.9973353355832</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.59</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 1.900</value></Data>
+		<Data name="End_CH"><value>CH 1.999</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.637859249286,1.9982192795375 109.637919887894,1.9979548930429 109.637969154555,1.99778122643139 109.638016579494,1.99764896687921 109.63808742409,1.99743925245817 109.638115964138,1.99735755551529</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.19</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 1.900</value></Data>
+		<Data name="End_CH"><value>CH 1.999</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.637885125759,1.99822708900483 109.637946001369,1.99796166917268 109.637970413676,1.99787561498066 109.638006210433,1.99775781162218 109.638027101849,1.99769954925332 109.638052575649,1.99762669903483 109.638077464075,1.99755302422802 109.638108167102,1.99746213701847 109.638140658866,1.99736866548149</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.65</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 2.000</value></Data>
+		<Data name="End_CH"><value>CH 2.099</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.638041879954,1.99732422561731 109.638161989114,1.99701833038188 109.638236184878,1.99684817014245 109.638411296855,1.99649404738926</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.31</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 2.000</value></Data>
+		<Data name="End_CH"><value>CH 2.099</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.638066574682,1.9973353355832 109.638193061911,1.9970145842115 109.638260689364,1.99685948770772 109.638315381515,1.99674477925892 109.638434550895,1.99650788586608</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.63</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 2.000</value></Data>
+		<Data name="End_CH"><value>CH 2.099</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.638115964138,1.99735755551529 109.638236568391,1.99704983873566 109.638309698337,1.99688212283823 109.638363747731,1.99676876247507 109.638481058975,1.99653556282007</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.30</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 2.000</value></Data>
+		<Data name="End_CH"><value>CH 2.099</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.638140658866,1.99736866548149 109.638156366386,1.99732370212225 109.638179718431,1.99726516504575 109.638208897269,1.99719202182123 109.638225025642,1.99715159247742 109.638245760778,1.99710072745849 109.638261428151,1.99706034152021 109.638273703513,1.99703218925852 109.638288854672,1.99699744165741 109.638308461138,1.99695247627293 109.638334202824,1.99689344040346 109.638342865746,1.99687527124625 109.638361066832,1.99683709724329 109.63838793084,1.99678075408312 109.638415927741,1.99672509984646 109.638432443122,1.99669226939485 109.638453514444,1.99665235513929 109.638470417285,1.99661678164532 109.638504313015,1.99654940129723</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.12</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 2.100</value></Data>
+		<Data name="End_CH"><value>CH 2.199</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.638411296855,1.99649404738926 109.638441307985,1.99643438912375 109.638551909361,1.99624009264139 109.638628403124,1.99610773535889 109.638672004928,1.99603696409259 109.638700141393,1.99599116726472 109.638726669675,1.99594798802491 109.638771600566,1.9958753329526 109.638806589929,1.99581786748317 109.638841245087,1.99576120196542 109.638869445683,1.9957149846134</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.05</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 2.100</value></Data>
+		<Data name="End_CH"><value>CH 2.199</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.638434550895,1.99650788586608 109.638465047646,1.99644726224885 109.638498219633,1.9963889881061 109.63853084207,1.99633167937294 109.638561158739,1.99627842124705 109.638597885636,1.99621454656582 109.638634375638,1.99614979910522 109.638684372381,1.99606842099789 109.638739358764,1.99597892141278 109.638786443152,1.99590228365392 109.6388923023,1.99572936972979</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.90</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 2.100</value></Data>
+		<Data name="End_CH"><value>CH 2.199</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.638481058975,1.99653556282007 109.638519466633,1.99646081739791 109.63855266358,1.99640249940798 109.638579238206,1.99635581503177 109.638605595459,1.99630951252179 109.638638582762,1.99625156281854 109.638664582878,1.99620588769925 109.638692734586,1.99615798413218 109.638721918086,1.99611048307869 109.638756511398,1.99605417664758 109.638781249997,1.99601391041885 109.638820216081,1.99595048656551 109.638860163266,1.99588544195467 109.63888801818,1.9958400795483 109.638917145507,1.99579317048573 109.638938015532,1.99575813996289</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.83</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 2.100</value></Data>
+		<Data name="End_CH"><value>CH 2.199</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.638504313015,1.99654940129723 109.638536266629,1.99648588162417 109.638559151902,1.99644694897211 109.638586981429,1.99639678954203 109.638620075238,1.99633865273636 109.638667136858,1.99625680154878 109.638703883848,1.99619142384856 109.638752820573,1.99611360410652 109.638785973432,1.99605780924868 109.638827758986,1.99598979623545 109.638855240119,1.99594506607067 109.638898365515,1.99587415920307 109.638936459278,1.99581253480766 109.638960872149,1.9957725250796</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.99</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 2.200</value></Data>
+		<Data name="End_CH"><value>CH 2.299</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.638960872149,1.9957725250796 109.639039223582,1.99564411660188 109.639074662311,1.99558558954318 109.639106690413,1.99553354666409 109.639128134237,1.99549840284219 109.639169210774,1.99543539606604 109.639222622092,1.99535101607578 109.639270162302,1.99527466266177 109.639305415288,1.99521804352199 109.639339942257,1.99516259042344 109.639358641086,1.99513255859462 109.639385103178,1.99509005833893 109.639410169028,1.99504980056086 109.639437467837,1.99500595647152</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.98</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 2.200</value></Data>
+		<Data name="End_CH"><value>CH 2.299</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.638938015532,1.99575813996289 109.638973065096,1.99569906175683 109.639008690093,1.99564232565001 109.639036398425,1.99559614509794 109.639068335651,1.99554456112312 109.639095441697,1.99550013760692 109.639123574098,1.99545594325342 109.639135658336,1.99543740739577 109.639165946316,1.99539094904804 109.639187231458,1.99535676339214 109.639213324938,1.99531485515675 109.6392299573,1.99528814224186 109.639248734334,1.99525798480909 109.639271130489,1.99522201477695 109.63928776285,1.99519530186206 109.639305565071,1.99516732568589 109.639322881839,1.99513889793088 109.639354474981,1.99508815679554 109.639385278349,1.9950386840993 109.639414588435,1.99499160973491</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.97</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 2.200</value></Data>
+		<Data name="End_CH"><value>CH 2.299</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.6388923023,1.99572936972979 109.63905984259,1.9954547915461 109.639120552456,1.99536166945476 109.639368829633,1.994962916262</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.96</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 2.200</value></Data>
+		<Data name="End_CH"><value>CH 2.299</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.638869445683,1.9957149846134 109.639097855527,1.99534702965813 109.639345950233,1.9949485695257</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.61</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 2.300</value></Data>
+		<Data name="End_CH"><value>CH 2.399</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.639437467837,1.99500595647152 109.639565872513,1.99479972819772 109.639911062996,1.9942414451524</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.60</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 2.300</value></Data>
+		<Data name="End_CH"><value>CH 2.399</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.639414588435,1.99499160973491 109.639543003645,1.99478536454304 109.639888147077,1.99422715758832</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.59</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 2.300</value></Data>
+		<Data name="End_CH"><value>CH 2.399</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.639368829633,1.994962916262 109.639497265909,1.99475663723364 109.639842315241,1.99419858246017</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.58</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 2.300</value></Data>
+		<Data name="End_CH"><value>CH 2.399</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.639345950233,1.9949485695257 109.639474397041,1.99474227357895 109.639819399323,1.99418429489611</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.35</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 2.400</value></Data>
+		<Data name="End_CH"><value>CH 2.499</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.639911062996,1.9942414451524 109.640046904142,1.99402003450098 109.640227614337,1.99373046889436 109.640389431354,1.99347211750063</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.35</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 2.400</value></Data>
+		<Data name="End_CH"><value>CH 2.499</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.639888147077,1.99422715758832 109.640024017764,1.99400569878678 109.640204794515,1.99371602652969 109.640366538141,1.99345779230835</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.36</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 2.400</value></Data>
+		<Data name="End_CH"><value>CH 2.499</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.639842315241,1.99419858246017 109.639978245009,1.9939770273583 109.640159154872,1.99368714180054 109.640320751715,1.99342914192412</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.36</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 2.400</value></Data>
+		<Data name="End_CH"><value>CH 2.499</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.639819399323,1.99418429489611 109.639955358631,1.99396269164409 109.640136335051,1.99367269943589 109.640297858502,1.99341481673216</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.96</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 2.500</value></Data>
+		<Data name="End_CH"><value>CH 2.599</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.640389431354,1.99347211750063 109.64048590428,1.99331809219834 109.640602409101,1.99312686001853 109.640863950317,1.99270446865105</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.97</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 2.500</value></Data>
+		<Data name="End_CH"><value>CH 2.599</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.640366538141,1.99345779230835 109.640463006974,1.99330377353902 109.64057946811,1.9931126130625 109.640841091528,1.99269008877884</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.98</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 2.500</value></Data>
+		<Data name="End_CH"><value>CH 2.599</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.640320751715,1.99342914192412 109.640417212363,1.9932751362204 109.640533586129,1.99308411915046 109.64079537395,1.99266132903477</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.99</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 2.500</value></Data>
+		<Data name="End_CH"><value>CH 2.599</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.640297858502,1.99341481673216 109.640510645139,1.99306987219442 109.640772515162,1.99264694916288</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.99</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 2.600</value></Data>
+		<Data name="End_CH"><value>CH 2.699</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.640863950317,1.99270446865105 109.641170563129,1.99221084833682 109.641340421313,1.9919377488652</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.98</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 2.600</value></Data>
+		<Data name="End_CH"><value>CH 2.699</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.640841091528,1.99269008877884 109.641147703591,1.99219646969276 109.641317532876,1.99192341668445</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.97</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 2.600</value></Data>
+		<Data name="End_CH"><value>CH 2.699</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.64079537395,1.99266132903477 109.641101990694,1.99216770247293 109.641271756003,1.99189475232368</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.96</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 2.600</value></Data>
+		<Data name="End_CH"><value>CH 2.699</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.640772515162,1.99264694916288 109.641079137335,1.99215331389703 109.641248867567,1.99188042014365</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.01</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 2.700</value></Data>
+		<Data name="End_CH"><value>CH 2.799</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.641340421313,1.9919377488652 109.641395211949,1.99184965600333 109.641646795262,1.99144540501086 109.641815430514,1.99116985225362</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.99</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 2.700</value></Data>
+		<Data name="End_CH"><value>CH 2.799</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.641317532876,1.99192341668445 109.641372360552,1.99183526426848 109.641623859235,1.99143114925964 109.641792448461,1.99115566650088</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.96</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 2.700</value></Data>
+		<Data name="End_CH"><value>CH 2.799</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.641271756003,1.99189475232368 109.641326659724,1.99180647763983 109.641577987181,1.99140263775716 109.641746484357,1.99112729499573</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.94</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 2.700</value></Data>
+		<Data name="End_CH"><value>CH 2.799</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.641248867567,1.99188042014365 109.641303810294,1.99179208274597 109.641555051154,1.99138838200591 109.641723502304,1.99111310924331</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.38</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 2.800</value></Data>
+		<Data name="End_CH"><value>CH 2.899</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.641723502304,1.99111310924331 109.641850043064,1.99091259655055 109.641948593943,1.99075474004504 109.642090182479,1.99052389832652 109.642143130147,1.99043581476036 109.642190723791,1.99034729098999</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.68</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 2.800</value></Data>
+		<Data name="End_CH"><value>CH 2.899</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.641746484357,1.99112729499573 109.641872837234,1.99092708001595 109.641971479992,1.99076907634308 109.642113188262,1.99053803941542 109.642166534,1.99044929362144 109.642215006282,1.99035913559398</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.27</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 2.800</value></Data>
+		<Data name="End_CH"><value>CH 2.899</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.641792448461,1.99115566650088 109.641918425576,1.99095604694676 109.64201725209,1.99079774893912 109.642159199828,1.99056632159323 109.642263571263,1.99038282480228</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>100.57</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 2.800</value></Data>
+		<Data name="End_CH"><value>CH 2.899</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.641815430514,1.99116985225362 109.641941219747,1.99097053041219 109.64204013814,1.99081208523714 109.642182205612,1.99058046268214 109.642236745561,1.99048973020466 109.642287853754,1.99039466940656</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.98</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 2.900</value></Data>
+		<Data name="End_CH"><value>CH 2.999</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.642287853754,1.99039466940656 109.642373966592,1.99023450027213 109.642413167967,1.99015910885252 109.642520946867,1.98995190817881 109.642679567789,1.98958175411496</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.98</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Increase</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Left</value></Data>
+		<Data name="Start_CH"><value>CH 2.900</value></Data>
+		<Data name="End_CH"><value>CH 2.999</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.642263571263,1.99038282480228 109.642350165481,1.99022176030391 109.642389281262,1.99014653349592 109.642496591601,1.98994023361369 109.642655285372,1.9895699095504</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.98</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Fast</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 2.900</value></Data>
+		<Data name="End_CH"><value>CH 2.999</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.642215006282,1.99035913559398 109.64230256326,1.99019628036743 109.642349559891,1.99010590306061 109.642384651683,1.99003844047862 109.64242199132,1.98996665650257 109.642447881069,1.98991688448338 109.642468516515,1.98986873008918 109.642490703719,1.98981829831221 109.642517581836,1.9897542324072 109.642554636783,1.98966776185205 109.642590053937,1.98958511320952 109.642606720538,1.98954622042156</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ffff2063</color><width>1</width></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData>
+		<Data name="Division"><value>Kuching</value></Data>
+		<Data name="Region"><value>Southern</value></Data>
+		<Data name="G Length"><value>11996.94</value></Data>
+		<Data name="Length"><value>99.98</value></Data>
+		<Data name="Start Lat"><value>109.64802311</value></Data>
+		<Data name="Start Long"><value>2.00449515</value></Data>
+		<Data name="End Lat"><value>110.37843223</value></Data>
+		<Data name="End Long"><value>1.38121130</value></Data>
+		<Data name="Direction"><value>Decrease</value></Data>
+		<Data name="Type"><value>Slow</value></Data>
+		<Data name="Postion"><value>Right</value></Data>
+		<Data name="Start_CH"><value>CH 2.900</value></Data>
+		<Data name="End_CH"><value>CH 2.999</value></Data>
+	</ExtendedData>
+      <MultiGeometry><LineString><coordinates>109.642190723791,1.99034729098999 109.642222436583,1.99028830546978 109.642261242513,1.99021612677329 109.642298192617,1.9901461720551 109.642317623084,1.99010880371099 109.642350842619,1.99004524273951 109.642370574443,1.99000700681461 109.642399662059,1.98995156219104 109.642423525803,1.98990520991823 109.642443577034,1.98985841883619 109.642466437834,1.98980507140754 109.642493051765,1.98974296576317 109.642528127794,1.98966111316362 109.642558836428,1.98958945221486 109.642582438121,1.98953437585729</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

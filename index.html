@@ -1,0 +1,399 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cesium Projects</title>
+    <link href="CesiumCore/Widgets/widgets.css" rel="stylesheet">                 <!--     CSS for cesium map-->
+    <script src="CesiumCore/Cesium.js"></script>                                 <!--     JS for cesium map-->
+    <script src="CesiumCore/Compass/viewerCesiumNavigationMixin.js"></script>    <!--     Js for cesium compas (top left of screen)-->
+	<script src = "https://sandcastle.cesium.com/Sandcastle-header.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src = "JS/functions.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div id="buttonContainer">
+        <button class="actionButton" onclick="uploadLayer()">Upload Data Layer</button>
+        <button class="actionButton" onclick="linkLotData()">Link Data Styling</button>
+        <button class="actionButton" onclick="showLayerData()">View Data Styling</button>
+		<button class="actionButton" onclick="openModalAssetList()">Data Asset List</button>
+	</div>
+	<div id="CesiumContainer"></div>
+	<div id="layerList" style="display: none;">
+		<span class="x-button">X</span>
+		<h3 style="text-align: center;">List of Data</h3>
+		
+		<div id="tableContainer">
+			<table>
+				<thead>
+					<tr>
+					<th class="center-icons">Layer Name</th>
+					<th class="center-icons">Type</th>
+					<th class="center-icons">Uploaded Date</th>
+					<th class="center-icons">Action</th>
+					</tr>
+				</thead>
+				<tbody id="data_layer">
+				</tbody>
+			</table>
+		</div>
+		<div id="belowTableContainer" style="display: none;">
+			<h4>Legend Information</h4>
+			<table>
+				<tbody id="themLegend"></tbody>
+			</table>
+		</div>
+	</div>
+	<div id="linkDataList" style="display: none;">
+		<span class="x-button">X</span>
+		<h3 style="text-align: center;">List of Data</h3>
+		
+		<div id="tableContainer">
+			<table>
+				<thead>
+					<tr>
+					<th class="center-icons">ID</th>
+					<th class="center-icons">Name</th>
+					<th class="center-icons">Date</th>
+					<th class="center-icons">Type</th>
+					<th class="center-icons">Lot</th>
+					<th class="center-icons">Action</th>
+					</tr>
+				</thead>
+				<tbody id="data_lot">
+				</tbody>
+			</table>
+		</div>
+		<div id="belowTableContainer" style="display: none;">
+			<h4>Legend Information</h4>
+			<table>
+				<tbody id="themLegend"></tbody>
+			</table>
+		</div>
+	</div>
+	<div id="uploadContainer" style="display: none;">
+		<h3 style="text-align: center;">Upload Layer</h3>
+	
+		<!-- Form for name, select option, and file upload -->
+		<div id="uploadForm" style="max-width: 400px; margin: 0 auto;">
+			<!-- Input for name -->
+			<div style="margin-bottom: 15px;">
+				<label for="kmlName">Layer Name:</label>
+				<input type="text" id="kmlName" name="kmlName" placeholder="" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+			</div>
+	
+			<!-- Select for type of layer -->
+			<div style="margin-bottom: 15px;">
+				<label for="kmlType">Layer Type:</label>
+				<select id="kmlType" name="kmlType" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+					<option value="" disabled selected>Select File Type</option>
+					<option value="KML">KML</option>
+					<option value="KMZ">KMZ</option>
+					<option value="GEOJSON">GEOJSON</option>
+				</select>
+			</div>
+
+			<div style="margin-bottom: 15px;">
+				<label for="structureType">Structure Type:</label>
+				<select id="structureType" name="structureType" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+					<option value="" disabled selected>Select Structure Type</option>
+					<option value="Building">Building</option>
+					<option value="Land">Land</option>
+				</select>
+			</div>
+	
+			<!-- File upload -->
+			<div style="margin-bottom: 15px;">
+				<label for="fileUpload">Choose a file:</label>
+				<input type="file" id="fileUpload" name="fileUpload" accept=".kml,.kmz,.geojson" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+			</div>
+	
+			<!-- Submit button -->
+			<div style="text-align: center;">
+				<button id="uploadData" style="padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+					Upload
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="modal1" class="modal1">
+        <div class="modal1-content">
+            <span id="closeModal" class="x-button">&times;</span> 
+            <br>
+            <input type="text" id="searchField" placeholder="Search..." style="margin-bottom: 10px; width: 100%; padding: 8px;">
+
+            <div class="dataTableContainer">
+                <table id="dataTable" border="1">  
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Culvert Name</th>
+                            <th>Layer</th>
+                            <th>Path</th>
+                            <th>Coordinates</th>
+                            <th>Asset Condition</th>
+                            <th>Fly To</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Rows will be dynamically added here -->
+                    </tbody>
+                </table>
+
+            </div>
+            
+        </div>
+    </div>
+
+	<!-- Custom Success Modal -->
+	<div id="successModal" class="modal">
+		<div class="modal-content">
+			<span class="x-button">&times;</span>
+			<h2>Upload Successful</h2>
+			<p>Your file has been uploaded successfully!</p>
+			<p>You can view in View Layer Data!</p>
+			<button id="modalCloseBtn">OK</button>
+		</div>
+	</div>
+
+	 <!-- Modal Overlay -->
+	 <div class="modal-overlay"></div>
+
+	 <!-- Modal Content -->
+	 <div class="modal-lot" id="modalLot">
+		<div class="modal-content-lot">
+			<span class="x-button">&times;</span>
+			<form id="modalForm">
+			  <label for="dataId">ID:</label>
+			  <input type="text" id="dataId" name="dataId" readonly>
+			  <br>
+		
+			  <label for="dataName">Name:</label>
+			  <input type="text" id="dataName" name="dataName" readonly>
+			  <br>
+
+			  <label for="lotId">Lot:</label>
+			  <select id="lotId" name="lotId">
+			  </select>
+			  <br>
+		
+			  <button id="updateData">Submit</button>
+			</form>
+		</div>
+	 </div>
+	
+</body>
+</html>
+
+<script>
+    //Cesium for defining area extent
+    Cesium.BingMapsApi.defaultKey = 'AmQV8VorDCSHtTQXWQ9U_yiJzpv3a8_YL_FLdGW-b01KX4EDG9s3Q78sGbwvyQP3';
+    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI4YTU2OTcxMC0wNzdmLTQyZDItOWVkNy0xZjU4NTgzYTVjNTUiLCJpZCI6NzI3Miwic2NvcGVzIjpbImFzciIsImdjIl0sImlhdCI6MTU0ODg2ODEwM30.Lc-IQBDSPyhqgPR2v-Ejcb34ksKJLr23mXsOhszBcHI';
+
+    viewer = new Cesium.Viewer('CesiumContainer', {
+		baseLayerPicker: false,
+		timeline: false,
+		contextOptions: {
+			webgl: { preserveDrawingBuffer: true }
+		},
+		animation: false,
+		geocoder: true,
+		homeButton: true,
+		sceneModePicker: false,
+		imageryProvider: new Cesium.BingMapsImageryProvider({
+			url: 'https://dev.virtualearth.net',
+			mapStyle: Cesium.BingMapsStyle.AERIAL
+		}),
+		navigationHelpButton: false,
+		infoBox: true,
+		fullscreenButton: false,
+		mapProjection: new Cesium.GeographicProjection(Cesium.Ellipsoid.WGS84),
+		selectionIndicator: false
+	});
+
+
+</script>
+<style>
+	#buttonContainer {
+		position: fixed;
+		top: 20px; /* Distance from the top */
+		left: 20px; /* Distance from the left */
+		z-index: 100; /* Make sure it stays above other content */
+		background-color: rgba(255, 255, 255, 0.9); /* Light background */
+		padding: 20px; /* Padding around the container */
+		width: 250px; /* Width of the button container */
+		height: auto; /* Auto height based on content */
+		border-radius: 10px; /* Rounded corners */
+		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+		display: flex;
+		flex-direction: column; /* Stack buttons vertically */
+		gap: 10px; /* Space between buttons */
+	}
+
+	.actionButton {
+		padding: 12px 20px;
+		background-color: #007BFF; /* Blue button */
+		color: white;
+		border: none;
+		border-radius: 5px;
+		font-size: 16px;
+		cursor: pointer;
+		width: 100%; /* Make buttons fill the container's width */
+	}
+
+	.actionButton:hover {
+		background-color: #0056b3; /* Darker blue on hover */
+	}
+
+	#CesiumContainer {
+      width: 100%;
+      height: 100vh; /* Full screen height */
+      position: relative;
+    }
+
+    #layerList, 
+	#uploadContainer,
+	#linkDataList{
+      position: absolute;
+      top: 40; /* Align to the top of CesiumContainer */
+      right: 10; /* Align to the right of CesiumContainer */
+      width: 30%; /* 1/3 of CesiumContainer width */
+      height: 80%; /* Full height of CesiumContainer */
+      z-index: 10; /* Higher than CesiumContainer */
+      background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+      overflow-y: auto; /* Add vertical scroll if content overflows */
+      border-left: 1px solid #ccc; /* Add a border to distinguish it */
+      box-shadow: -3px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+	  border-radius: 2px;
+    }
+
+	#tableContainer {
+		border: 1px solid #ccc; /* Optional border around the table */
+		padding: 10px; /* Add padding inside the container */
+		background-color: rgba(255, 255, 255, 0.5); /* Light gray background for the table container */
+		margin-bottom: 10px; /* Space below the table container */
+		border-radius: 5px; /* Rounded corners */
+		height: 60%;
+	}
+
+	#belowTableContainer {
+		border: 1px solid #ccc; /* Border for the below container */
+		padding: 10px; /* Add padding inside the container */
+		background-color: #fff; /* White background */
+		border-radius: 5px; /* Rounded corners */
+	}
+
+	table {
+      width: 100%; /* Full width of the container */
+      border-collapse: collapse; /* Remove space between table cells */
+    }
+
+    th, td {
+      border: 1px solid #ccc; /* Add border to table cells */
+      padding: 8px; /* Add padding for readability */
+      text-align: left; /* Align text to the left */
+    }
+
+    th {
+      background-color: #f4f4f4; /* Light gray background for table headers */
+    }
+
+	.center-icons {
+		text-align: center;
+	}
+
+	#uploadForm,
+	#modalForm {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#uploadForm div {
+		margin-bottom: 15px;
+	}
+
+	#uploadForm input,
+	#uploadForm select,
+	#uploadForm button,
+	#modalForm input,
+	#modalForm select,
+	#modalForm button {
+		width: 100%;
+		padding: 10px;
+		border-radius: 5px;
+		border: 1px solid #ccc;
+		margin-top: 5px;
+	}
+
+	#uploadForm button,
+	#modalForm button {
+		background-color: #007BFF;
+		color: white;
+		cursor: pointer;
+		font-size: 16px;
+		text-align: center;
+	}
+
+	#uploadForm button:hover {
+		background-color: #0056b3;
+	}
+
+	.modal,
+	.modal-lot {
+		display: none; /* Hidden by default */
+		position: absolute;
+		z-index: 1;
+		left: 300;
+		top: 300;
+		width: 50%;
+		height: 50%;
+		background-color: rgba(255, 255, 255, 0.5);
+		box-shadow: -3px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+	  	border-radius: 10px;
+	}
+
+	/* Modal content */
+	.modal-content {
+		background-color: #fff;
+		margin: 15% auto;
+		padding: 20px;
+		border: 1px solid #888;
+		width: 50%;
+		text-align: center;
+		border-radius: 5px;
+	}
+
+	/* Modal content */
+	.modal-content-lot {
+		background-color: #fff;
+		margin: 5% auto;
+		padding: 5px;
+		border: 1px solid #888;
+		width: 70%;
+		text-align: center;
+		border-radius: 5px;
+	}
+
+	/* Close button */
+	.close-button, 
+	.x-button {
+		color: #000;
+		font-size: 24px;
+		font-weight: normal;
+		position: absolute;
+		top: 0;
+		right: 10px;
+	}
+
+	.close-button:hover,
+	.close-button:focus, 
+	.x-button:hover, 
+	.x-button:focus {
+		color: black;
+		text-decoration: none;
+		cursor: pointer;
+	}
+</style>
