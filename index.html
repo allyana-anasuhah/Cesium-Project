@@ -6,185 +6,321 @@
     <link href="CesiumCore/Widgets/widgets.css" rel="stylesheet">                 <!--     CSS for cesium map-->
     <script src="CesiumCore/Cesium.js"></script>                                 <!--     JS for cesium map-->
     <script src="CesiumCore/Compass/viewerCesiumNavigationMixin.js"></script>    <!--     Js for cesium compas (top left of screen)-->
-	<script src = "https://sandcastle.cesium.com/Sandcastle-header.js"></script>
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-	<script src = "JS/functions.js"></script>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+	<script src = "JS/functions.js"></script>
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/output.css">
 </head>
 <body>
-	<div id="buttonContainer">
-        <button class="actionButton" onclick="uploadLayer()">Upload Data Layer</button>
-        <button class="actionButton" onclick="linkLotData()">Link Data Styling</button>
-        <button class="actionButton" onclick="showLayerData()">View Data Styling</button>
-		<button class="actionButton" onclick="openModalAssetList()">Data Asset List</button>
-	</div>
-	<div id="CesiumContainer"></div>
-	<div id="layerList" style="display: none;">
-		<span class="x-button">X</span>
-		<h3 style="text-align: center;">List of Data</h3>
+	<div class="min-h-screen flex flex-row flex-auto flex-shrink-0 antialiased bg-gray-50 text-gray-800">
+		<div class="flex flex-col top-0 left-0 w-64 bg-white h-full border-r">
+			<div class="flex items-center justify-center h-14 border-b bg-primary-darken">
+			  <div class="text-primary flex"><img class="w-6 h-6" src="./asset/Twinsights_brand_dark_inverse.png" alt=""><img class="w-28" src="./asset/Twinsights_desc_light.png"></div>
+			</div>
+			<div class="overflow-y-auto overflow-x-hidden flex-grow">
+			  <ul class="flex flex-col py-4 space-y-1">
+				<li class="px-5">
+				  <div class="flex flex-row items-center h-8">
+					<div class="text-sm font-light tracking-wide text-gray-500">Data Manager</div>
+				  </div>
+				</li>
+				<li onclick="uploadLayer()">
+				  <a href="#" class="relative flex flex-row items-center h-11 focus:outline-none hover:no-underline hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-primary pr-6">
+					<span class="inline-flex justify-center items-center ml-4">
+						<i class="fa-solid fa-upload"></i>
+					</span>
+					<span class="ml-2 text-sm tracking-wide truncate">Upload</span>
+				  </a>
+				</li>
+				<li onclick="linkLotData()">
+				  <a href="#" class="relative flex flex-row items-center h-11 focus:outline-none hover:no-underline hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-primary pr-6">
+					<span class="inline-flex justify-center items-center ml-4">
+						<i class="fa-solid fa-fill-drip"></i>
+					</span>
+					<span class="ml-2 text-sm tracking-wide truncate">Styling</span>
+				  </a>
+				</li>
+				<li onclick="showLayerData()">
+				  <a href="#" class="relative flex flex-row items-center h-11 focus:outline-none hover:no-underline hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-primary pr-6">
+					<span class="inline-flex justify-center items-center ml-4">
+						<i class="fa-solid fa-eye"></i>
+					</span>
+					<span class="ml-2 text-sm tracking-wide truncate">View</span>
+				  </a>
+				</li>
+				<li class="px-5">
+				  <div class="flex flex-row items-center h-8">
+					<div class="text-sm font-light tracking-wide text-gray-500">Asset</div>
+				  </div>
+				</li>
+				<li onclick="openModalAssetList()">
+				  <a href="#" class="relative flex flex-row items-center h-11 focus:outline-none hover:no-underline hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-primary pr-6">
+					<span class="inline-flex justify-center items-center ml-4">
+						<i class="fa-solid fa-rectangle-list"></i>
+					</span>
+					<span class="ml-2 text-sm tracking-wide truncate">Data List</span>
+				  </a>
+				</li>
+			  </ul>
+			</div>
+		</div>
+		<div class="w-full relative">
+			<div id="CesiumContainer"></div>
 		
-		<div id="tableContainer">
-			<table>
-				<thead>
-					<tr>
-					<th class="center-icons">Layer Name</th>
-					<th class="center-icons">Type</th>
-					<th class="center-icons">Uploaded Date</th>
-					<th class="center-icons">Action</th>
-					</tr>
-				</thead>
-				<tbody id="data_layer">
-				</tbody>
-			</table>
-		</div>
-		<div id="belowTableContainer" style="display: none;">
-			<h4>Legend Information</h4>
-			<table>
-				<tbody id="themLegend"></tbody>
-			</table>
+			<div id="uploadContainer" tabindex="-1" class="hidden overflow-y-auto overflow-x-hidden absolute top-0 right-0 left-0 z-50 justify-end items-start w-fit h-fit max-h-full md:inset-0">
+				<div class="relative p-4 w-80 max-h-full">
+					<!-- Modal content -->
+					<div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+						<!-- Modal header -->
+						<div class="flex items-center justify-between p-2 md:p-3 border-b rounded-t dark:border-gray-600">
+							<h3 class="text-m font-semibold text-gray-900 dark:text-white">
+								Upload Layer
+							</h3>
+							<button type="button" class="close-list-button end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white">
+								<svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+								</svg>
+								<span class="sr-only">Close modal</span>
+							</button>
+						</div>
+						<!-- Modal body -->
+						<div class="p-4 md:p-5">
+							<form class="space-y-4" action="#">
+								<div>
+									<label for="kmlName" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Layer Name</label>
+									<input type="text" id="kmlName" name="kmlName" placeholder="" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" required />
+								</div>
+								<div>
+									<label for="kmlType" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Layer Type</label>
+									<select id="kmlType" name="kmlType" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+										<option value="" disabled selected>Select File Type</option>
+										<option value="KML">KML</option>
+										<option value="KMZ">KMZ</option>
+										<option value="GEOJSON">GEOJSON</option>
+									</select>
+								</div>
+								<div>
+									<label for="structureType" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Structure Type</label>
+									<select id="structureType" name="structureType" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+										<option value="" disabled selected>Select File Type</option>
+										<option value="KML">KML</option>
+										<option value="KMZ">KMZ</option>
+										<option value="GEOJSON">GEOJSON</option>
+									</select>
+								</div>
+								<button type="submit" class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Upload</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="layerList" tabindex="-1" class="hidden overflow-y-auto overflow-x-hidden absolute top-0 right-0 left-0 z-50 justify-end items-start w-fit h-fit max-h-full md:inset-0">
+				<div class="relative p-4 w-full max-w-md max-h-full">
+					<!-- Modal content -->
+					<div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+						<!-- Modal header -->
+						<div class="flex items-center justify-between p-2 md:p-3 border-b rounded-t dark:border-gray-600">
+							<h3 class="text-m font-semibold text-gray-900 dark:text-white">
+								List of Layer
+							</h3>
+							<button type="button" class="close-list-button end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white">
+								<svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+								</svg>
+								<span class="sr-only">Close modal</span>
+							</button>
+						</div>
+						<!-- Modal body -->
+						<div class="p-4 md:p-5">
+							<div id="tableContainer" class="overflow-auto">
+								<table class="text-sm">
+									<thead class="bg-surface-darken">
+										<tr>
+										<th class="center-icons">Layer Name</th>
+										<th class="center-icons">Type</th>
+										<th class="center-icons">Uploaded Date</th>
+										<th class="center-icons">Action</th>
+										</tr>
+									</thead>
+									<tbody id="data_layer">
+									</tbody>
+								</table>
+							</div>
+							<div id="belowTableContainer" style="display: none;">
+								<h4>Legend Information</h4>
+								<table>
+									<tbody id="themLegend"></tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="linkDataList" tabindex="-1" class="hidden overflow-y-auto overflow-x-hidden absolute top-0 right-0 left-0 z-50 justify-end items-start w-fit h-fit max-h-full md:inset-0">
+				<div class="relative p-4 w-full max-w-md max-h-full">
+					<!-- Modal content -->
+					<div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+						<!-- Modal header -->
+						<div class="flex items-center justify-between p-2 md:p-3 border-b rounded-t dark:border-gray-600">
+							<h3 class="text-m font-semibold text-gray-900 dark:text-white">
+								List of Data
+							</h3>
+							<button type="button" class="close-list-button end-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white">
+								<svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+								</svg>
+								<span class="sr-only">Close modal</span>
+							</button>
+						</div>
+						<!-- Modal body -->
+						<div class="p-4 md:p-5">
+							<form class="space-y-4" action="#">
+								<div id="tableContainer" class="overflow-auto">
+									<table class="text-sm">
+										<thead class="bg-surface-darken">
+											<tr>
+											<th class="center-icons">ID</th>
+											<th class="center-icons">Name</th>
+											<th class="center-icons">Date</th>
+											<th class="center-icons">Type</th>
+											<th class="center-icons">Lot</th>
+											<th class="center-icons">Action</th>
+											</tr>
+										</thead>
+										<tbody id="data_lot">
+										</tbody>
+									</table>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
-	<div id="linkDataList" style="display: none;">
-		<span class="x-button">X</span>
-		<h3 style="text-align: center;">List of Data</h3>
-		
-		<div id="tableContainer">
-			<table>
-				<thead>
-					<tr>
-					<th class="center-icons">ID</th>
-					<th class="center-icons">Name</th>
-					<th class="center-icons">Date</th>
-					<th class="center-icons">Type</th>
-					<th class="center-icons">Lot</th>
-					<th class="center-icons">Action</th>
-					</tr>
-				</thead>
-				<tbody id="data_lot">
-				</tbody>
-			</table>
-		</div>
-		<div id="belowTableContainer" style="display: none;">
-			<h4>Legend Information</h4>
-			<table>
-				<tbody id="themLegend"></tbody>
-			</table>
-		</div>
-	</div>
-	<div id="uploadContainer" style="display: none;">
-		<h3 style="text-align: center;">Upload Layer</h3>
-	
-		<!-- Form for name, select option, and file upload -->
-		<div id="uploadForm" style="max-width: 400px; margin: 0 auto;">
-			<!-- Input for name -->
-			<div style="margin-bottom: 15px;">
-				<label for="kmlName">Layer Name:</label>
-				<input type="text" id="kmlName" name="kmlName" placeholder="" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
-			</div>
-	
-			<!-- Select for type of layer -->
-			<div style="margin-bottom: 15px;">
-				<label for="kmlType">Layer Type:</label>
-				<select id="kmlType" name="kmlType" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
-					<option value="" disabled selected>Select File Type</option>
-					<option value="KML">KML</option>
-					<option value="KMZ">KMZ</option>
-					<option value="GEOJSON">GEOJSON</option>
-				</select>
-			</div>
 
-			<div style="margin-bottom: 15px;">
-				<label for="structureType">Structure Type:</label>
-				<select id="structureType" name="structureType" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
-					<option value="" disabled selected>Select Structure Type</option>
-					<option value="Building">Building</option>
-					<option value="Land">Land</option>
-				</select>
-			</div>
-	
-			<!-- File upload -->
-			<div style="margin-bottom: 15px;">
-				<label for="fileUpload">Choose a file:</label>
-				<input type="file" id="fileUpload" name="fileUpload" accept=".kml,.kmz,.geojson" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
-			</div>
-	
-			<!-- Submit button -->
-			<div style="text-align: center;">
-				<button id="uploadData" style="padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
-					Upload
-				</button>
+	<!-- Main Content -->
+	<div id="modal1" tabindex="-1" class="bg-[#8080805e] hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+		<div class="relative p-4 w-full max-w-6xl max-h-full">
+			<!-- Modal content -->
+			<div class="relative bg-top rounded-lg shadow">
+				<!-- Modal header -->
+				<div class="flex items-center justify-between p-2 md:p-3 border-b rounded-t">
+					<h3 class="text-m font-semibold text-gray-900">
+						Asset List
+					</h3>
+					<button type="button" id="closeModal" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center">
+						<svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+							<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+						</svg>
+						<span class="sr-only">Close modal</span>
+					</button>
+				</div>
+				<!-- Modal body -->
+				<div class="p-4 md:p-5 space-y-4">
+					<input type="text" id="searchField" placeholder="Search..." class="p-1 mb-3 max-w-md">
+					<div class="dataTableContainer max-h-[60%] min-h-[30%] overflow-y-auto overflow-x-hidden">
+						<table id="dataTable" border="1" class="text-sm">  
+							<thead class="bg-surface-darken">
+								<tr>
+									<th>ID</th>
+									<th>Culvert Name</th>
+									<th>Layer</th>
+									<th>Path</th>
+									<th>Coordinates</th>
+									<th>Asset Condition</th>
+									<th>Fly To</th>
+									<th>Actions</th>
+								</tr>
+							</thead>
+							<tbody>
+								<!-- Rows will be dynamically added here -->
+							</tbody>
+						</table>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 
-	<div id="modal1" class="modal1">
-        <div class="modal1-content">
-            <span id="closeModal" class="x-button">&times;</span> 
-            <br>
-            <input type="text" id="searchField" placeholder="Search..." style="margin-bottom: 10px; width: 100%; padding: 8px;">
-
-            <div class="dataTableContainer">
-                <table id="dataTable" border="1">  
-                    <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>Culvert Name</th>
-                            <th>Layer</th>
-                            <th>Path</th>
-                            <th>Coordinates</th>
-                            <th>Asset Condition</th>
-                            <th>Fly To</th>
-                            <th>Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <!-- Rows will be dynamically added here -->
-                    </tbody>
-                </table>
-
-            </div>
-            
-        </div>
-    </div>
-
-	<!-- Custom Success Modal -->
-	<div id="successModal" class="modal">
-		<div class="modal-content">
-			<span class="x-button">&times;</span>
-			<h2>Upload Successful</h2>
-			<p>Your file has been uploaded successfully!</p>
-			<p>You can view in View Layer Data!</p>
-			<button id="modalCloseBtn">OK</button>
+	 <!-- Main modal -->
+	 <div id="success-modal" tabindex="-1" class="bg-[#8080805e] hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+		<div class="relative p-4 w-full max-w-2xl max-h-full">
+			<!-- Modal content -->
+			<div class="relative bg-top rounded-lg shadow">
+				<!-- Modal header -->
+				<div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
+					<h3 class="text-xl font-semibold text-gray-900">
+						Upload Successful
+					</h3>
+					<button type="button" id="success-btn-x" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center">
+						<svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+							<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+						</svg>
+						<span class="sr-only">Close modal</span>
+					</button>
+				</div>
+				<!-- Modal body -->
+				<div class="p-4 md:p-5 space-y-4">
+					<p class="text-base leading-relaxed text-gray-500">
+						Your file has been uploaded successfully!
+					</p>
+					<p class="text-base leading-relaxed text-gray-500">
+						You can view in View Data Manager!
+					</p>
+				</div>
+				<!-- Modal footer -->
+				<div class="flex items-center p-4 md:p-5 border-t border-gray-200 rounded-b">
+					<button id="success-btn-close" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">OK</button>
+				</div>
+			</div>
 		</div>
 	</div>
 
-	 <!-- Modal Overlay -->
-	 <div class="modal-overlay"></div>
-
-	 <!-- Modal Content -->
-	 <div class="modal-lot" id="modalLot">
-		<div class="modal-content-lot">
-			<span class="x-button">&times;</span>
-			<form id="modalForm">
-			  <label for="dataId">ID:</label>
-			  <input type="text" id="dataId" name="dataId" readonly>
-			  <br>
-		
-			  <label for="dataName">Name:</label>
-			  <input type="text" id="dataName" name="dataName" readonly>
-			  <br>
-
-			  <label for="lotId">Lot:</label>
-			  <select id="lotId" name="lotId">
-			  </select>
-			  <br>
-		
-			  <button id="updateData">Submit</button>
-			</form>
+	<!-- Main Content -->
+	<div id="modalLot" tabindex="-1" class="modal-lot bg-[#8080805e] hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+		<div class="relative p-4 w-full max-w-2xl max-h-full">
+			<!-- Modal content -->
+			<div class="relative bg-top rounded-lg shadow">
+				<!-- Modal header -->
+				<div class="flex items-center justify-between p-4 md:p-5 border-b rounded-t">
+					<h3 class="text-xl font-semibold text-gray-900">
+						Link Lot Data
+					</h3>
+					<button type="button" id="x-button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 ms-auto inline-flex justify-center items-center">
+						<svg class="w-3 h-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+							<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
+						</svg>
+						<span class="sr-only">Close modal</span>
+					</button>
+				</div>
+				<!-- Modal body -->
+				<div class="p-4 md:p-5 space-y-4">
+					<form id="modalForm">
+						<label for="dataId">ID:</label>
+						<input type="text" id="dataId" name="dataId" readonly>
+						<br>
+				
+						<label for="dataName">Name:</label>
+						<input type="text" id="dataName" name="dataName" readonly>
+						<br>
+			
+						<label for="lotId">Lot:</label>
+						<select id="lotId" name="lotId">
+						</select>
+						<br>
+				
+						<button id="updateData">Submit</button>
+					</form>
+				</div>
+			</div>
 		</div>
-	 </div>
+	</div>
 	
+	 <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
 </body>
 </html>
 
@@ -213,11 +349,29 @@
 		mapProjection: new Cesium.GeographicProjection(Cesium.Ellipsoid.WGS84),
 		selectionIndicator: false
 	});
-
-
 </script>
 <style>
+	body {
+		font-family: Arial, sans-serif;
+	}
+
+	/* Button on Cesium map */
+	.cesium-button {
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		z-index: 1;
+		padding: 10px 15px;
+		background-color: #007BFF;
+		color: white;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		font-size: 14px;
+	}
+
 	#buttonContainer {
+		display: none;
 		position: fixed;
 		top: 20px; /* Distance from the top */
 		left: 20px; /* Distance from the left */
@@ -228,7 +382,7 @@
 		height: auto; /* Auto height based on content */
 		border-radius: 10px; /* Rounded corners */
 		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
-		display: flex;
+		/* display: flex; */
 		flex-direction: column; /* Stack buttons vertically */
 		gap: 10px; /* Space between buttons */
 	}
@@ -253,31 +407,6 @@
       height: 100vh; /* Full screen height */
       position: relative;
     }
-
-    #layerList, 
-	#uploadContainer,
-	#linkDataList{
-      position: absolute;
-      top: 40; /* Align to the top of CesiumContainer */
-      right: 10; /* Align to the right of CesiumContainer */
-      width: 30%; /* 1/3 of CesiumContainer width */
-      height: 80%; /* Full height of CesiumContainer */
-      z-index: 10; /* Higher than CesiumContainer */
-      background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
-      overflow-y: auto; /* Add vertical scroll if content overflows */
-      border-left: 1px solid #ccc; /* Add a border to distinguish it */
-      box-shadow: -3px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
-	  border-radius: 2px;
-    }
-
-	#tableContainer {
-		border: 1px solid #ccc; /* Optional border around the table */
-		padding: 10px; /* Add padding inside the container */
-		background-color: rgba(255, 255, 255, 0.5); /* Light gray background for the table container */
-		margin-bottom: 10px; /* Space below the table container */
-		border-radius: 5px; /* Rounded corners */
-		height: 60%;
-	}
 
 	#belowTableContainer {
 		border: 1px solid #ccc; /* Border for the below container */
@@ -341,8 +470,7 @@
 		background-color: #0056b3;
 	}
 
-	.modal,
-	.modal-lot {
+	.modal{
 		display: none; /* Hidden by default */
 		position: absolute;
 		z-index: 1;
@@ -378,8 +506,7 @@
 	}
 
 	/* Close button */
-	.close-button, 
-	.x-button {
+	.close-button{
 		color: #000;
 		font-size: 24px;
 		font-weight: normal;

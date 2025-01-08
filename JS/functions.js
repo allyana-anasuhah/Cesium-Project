@@ -55,9 +55,11 @@ function thematicView(type){
 	$('#belowTableContainer').show()
 	var legendsTable = legendsTable = document.getElementById("themLegend")
 
+	console.log(legendsTable)
+
 	switch(type){
 		case "Land":
-
+			console.log("land")
 			$.ajax({
 				type: "POST",
 				url: 'getAPI.php',
@@ -163,6 +165,8 @@ function thematicView(type){
             legendsTable.innerHTML += "<tr><td style='background-color:rgb(95%, 90%, 75%);font-family: Arial, Helvetica, sans-serif;'>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td><td>Guard House 2</td></tr>"
             legendsTable.innerHTML += "<tr><td style='background-color:rgb(30%, 30%, 30%);font-family: Arial, Helvetica, sans-serif;'>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</td><td>Unknown</td></tr>"
             
+
+			console.log(legendsTable.innerHTML)
 		break;
 	}
 
@@ -219,7 +223,7 @@ function linkLotData(){
 
 	$('#layerList').hide()
 	$('#uploadContainer').hide()
-	$('#linkDataList').show()
+	$('#linkDataList').css('display', 'flex')
 	$('#modal1').hide()
 
 	$.ajax({
@@ -248,7 +252,7 @@ function linkLotData(){
 						'<td id="data_icon" class="center-icons">';
 
 				myhtml +=
-							'<button class="linkLot-button" onClick="updateLinkLot(this)" data-id='+data[j].land_id+' data-name='+data[j].land_name+'>Link Lot Data</button>'+
+							'<button class="linkLot-button w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onClick="updateLinkLot(this)" data-id='+data[j].land_id+' data-name='+data[j].land_name+'>Link</button>'+
 						'</td>'+
 					'</tr>';
 			}
@@ -291,14 +295,14 @@ function  openModalAssetList(){
                             <td>${row.coordinates}</td>
                             <td>${row.asset_condition}</td>
                             <td><button class="fly-button" onClick="flyTo(this)" data-coordinates="${row.coordinates}">Fly To</button></td>
-                            <td><button class="edit-button" onClick="editAsset(this)" data-id="${row.Culvert_Na}">Edit</button></td>
+                            <td><button class="break-keep w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onClick="editAsset(this)" data-id="${row.Culvert_Na}">Edit</button></td>
                         </tr>
                     `;
                     $tableBody.append(tableRow);
                 });
         
                 // Show the modal
-                $modal.fadeIn();
+                $modal.css('display', 'flex');
             } else {
                 window.alert("Record not available.");
             }
@@ -312,7 +316,7 @@ function  openModalAssetList(){
 function showLayerData(){
 	getListOfData();
 
-	$('#layerList').show()
+	$('#layerList').css('display', 'flex')
 	$('#uploadContainer').hide()
 	$('#modal1').hide()
 	$('#linkDataList').hide()
@@ -320,7 +324,7 @@ function showLayerData(){
 
 function uploadLayer(){
 	$('#layerList').hide()
-	$('#uploadContainer').show()
+	$('#uploadContainer').css('display', 'flex')
 	$('#modal1').hide()
 	$('#linkDataList').hide()
 
@@ -383,10 +387,7 @@ function updateLinkLot(){
 	$('#dataId').val(id);
 	$('#dataName').val(name);
 
-	// Show modal and overlay
-	$('.modal-overlay').fadeIn();
-	$('.modal-lot').fadeIn();
-
+	$('.modal-lot').css('display', 'flex');
 }
 
 function getListOfLot(){
@@ -455,7 +456,7 @@ $(document).ready(function() {
 				$('#kmlType').val('');
 				$('#structureType').val('');
 				$('#fileUpload').val(''); 
-				$('#successModal').fadeIn();
+				$('#success-modal').css('display', 'flex');
 			},
 			error: function(xhr, status, error) {
 				// Handle any errors
@@ -486,7 +487,7 @@ $(document).ready(function() {
 				console.log('File uploaded successfully');
 				console.log(response);
 
-				$('#layerList').show();
+				$('#layerList').css('display', 'flex')
 				$('#linkDataList').hide(); 
 				$('#modalLot').fadeOut();
 			},
@@ -513,17 +514,23 @@ $(document).ready(function() {
     });
 
 	// Close the modal when the user clicks the "OK" button or the close icon
-	$('#modalCloseBtn').click(function() {
-		$('#successModal').fadeOut();
+	$('#success-btn-close, #success-btn-x').click(function() {
+		$('#success-modal').css('display', 'none');
 	});
 
 	$('.close-button').click(function() {
-		$('#successModal').fadeOut();
+		$('#success-modal').css('display', 'none');
 	});
 
-	$('.x-button').click(function() {
-		$('#layerList').fadeOut();
+	$('#x-button').click(function() {
+		$('#modalLot').fadeOut();
 	});
+
+	$('.close-list-button').click(function() {
+		$('#uploadContainer').fadeOut();
+		$('#layerList').fadeOut();
+		$('#linkDataList').fadeOut();
+	})
 
 	$('#searchField').on('keyup', function () {
         const value = $(this).val().toLowerCase();
