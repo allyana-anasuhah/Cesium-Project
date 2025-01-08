@@ -4,8 +4,8 @@ include_once('db/lib/dbPdo.class.php');
 
 //db connect
 $DB_SERVERNAME = "localhost\SQLEXPRESS";
-$DB_USERNAME = "sa";
-$DB_PASSWORD = "admin1234";
+$DB_USERNAME = "admin";
+$DB_PASSWORD = "1234pass";
 $DB_DBNAME = "Cesium_Apps";
 
 $connArr = array('dsn'=>"sqlsrv:Server=$DB_SERVERNAME;database=$DB_DBNAME", 'username'=>$DB_USERNAME, 'pass'=>$DB_PASSWORD);

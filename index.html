@@ -9,7 +9,6 @@
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 	<script src = "JS/functions.js"></script>
-	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/output.css">
 </head>
 <body>
@@ -94,7 +93,7 @@
 								<div>
 									<label for="kmlType" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Layer Type</label>
 									<select id="kmlType" name="kmlType" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
-										<option value="" disabled selected>Select File Type</option>
+										<option value="" disabled selected>Select Layer Type</option>
 										<option value="KML">KML</option>
 										<option value="KMZ">KMZ</option>
 										<option value="GEOJSON">GEOJSON</option>
@@ -103,13 +102,17 @@
 								<div>
 									<label for="structureType" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Structure Type</label>
 									<select id="structureType" name="structureType" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
-										<option value="" disabled selected>Select File Type</option>
-										<option value="KML">KML</option>
-										<option value="KMZ">KMZ</option>
-										<option value="GEOJSON">GEOJSON</option>
+										<option value="" disabled selected>Select Structure Type</option>
+										<option value="Building">Building</option>
+										<option value="Land">Land</option>
 									</select>
 								</div>
-								<button type="submit" class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Upload</button>
+								<div>
+									<label for="fileUpload" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Upload File</label>
+									<input type="file" id="fileUpload" name="fileUpload" accept=".kml,.kmz,.geojson" style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc;">
+								</div>
+								
+								<button type="submit" id="uploadData" class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Upload</button>
 							</form>
 						</div>
 					</div>

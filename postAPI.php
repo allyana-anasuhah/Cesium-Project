@@ -1,4 +1,8 @@
 <?php
+    header("Access-Control-Allow-Origin: *"); // Replace * with specific origins for security
+    header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
+    header("Access-Control-Allow-Headers: Content-Type, Authorization");
+
 
     include_once 'connect.php';
 

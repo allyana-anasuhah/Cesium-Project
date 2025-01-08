@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KAWASAN_PERNIAGAAN</name>
+	
+	<Style id="falseColor">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor0">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor1">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor2">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor3">
+		
+		<PolyStyle>
+			<color>ffffec8c</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor4">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor6">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor29</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor26</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor8">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor9">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor27</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor11">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor28</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor13">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor14">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor16">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor17">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor18">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor23</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor19">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor19</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor34</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor22</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor22">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor23">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor24">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor31</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="falseColor25">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor33</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor26">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor27">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor28">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor29">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor31">
+		
+		<PolyStyle>
+			<color>ffffec8c</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor32">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor16</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="falseColor33">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor34">
+		
+		<PolyStyle>
+			<color>ffff0000</color>
+		</PolyStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>KAWASAN_PERNIAGAAN</name>
+		<open>1</open>
+		<Placemark>
+			<styleUrl>#falseColor24</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Cadangan</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>3552.91</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7575435532543,1.462191300073168,0 103.7580848210149,1.462676887803753,0 103.75783698781,1.462944233237504,0 103.7577791720735,1.462941606825536,0 103.7572841912279,1.462509640505223,0 103.7574008096771,1.462366326138129,0 103.7575434963396,1.462191365556946,0 103.7575435532543,1.462191300073168,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor25</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Sedia Ada</value></Data>
+					<Data name="Notes"><value>PP</value></Data>
+					<Data name="Area__m2_"><value>2258.34</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7623144985001,1.455922141247061,0 103.7623184706782,1.455993926353281,0 103.7622290635036,1.456271903149782,0 103.7617451925411,1.456126004503258,0 103.7618581066132,1.455773248486421,0 103.7619633183405,1.455807527624868,0 103.7623144985001,1.455922141247061,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor30</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Sedia Ada</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>1497.9</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7627125573687,1.45611768255117,0 103.7626197047975,1.456401388624204,0 103.7622290635036,1.456271903149782,0 103.7623184706782,1.455993926353281,0 103.7623186270867,1.455993975462597,0 103.7623186275322,1.455993983615196,0 103.7627125573687,1.45611768255117,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor7</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Sedia Ada</value></Data>
+					<Data name="Notes"><value>Menara TJB</value></Data>
+					<Data name="Area__m2_"><value>5530.83</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.760049691571,1.458696283675875,0 103.7597812644067,1.460034728007042,0 103.7594929784662,1.459960918680112,0 103.7594628440104,1.459912264772929,0 103.7597319216159,1.458625263197937,0 103.760049691571,1.458696283675875,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor12</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Sedia Ada</value></Data>
+					<Data name="Notes"><value>Telekom</value></Data>
+					<Data name="Area__m2_"><value>9386.6</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.760705168541,1.45996651149908,0 103.7606971552187,1.459638568280139,0 103.7610211410567,1.459403878119274,0 103.7614134571125,1.459387017049414,0 103.7616678781,1.459766598174066,0 103.7616730803299,1.459918814458923,0 103.7614423956393,1.460284113860211,0 103.761242738714,1.460599142291112,0 103.760705168541,1.45996651149908,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor20</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Sedia Ada</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>1387.22</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7609818541402,1.461044628707229,0 103.7607427504955,1.461171950989186,0 103.7607271720139,1.460742893772391,0 103.7609407675807,1.460798036691742,0 103.761228864131,1.460811430094049,0 103.7609818541402,1.461044628707229,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor21</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Sedia Ada</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>1819.64</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.759347682475,1.460635617960198,0 103.7591465227989,1.460447440413932,0 103.759489318381,1.460076381761168,0 103.7595508030734,1.460075996605141,0 103.7597127725603,1.460231727968546,0 103.759347682475,1.460635617960198,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor15</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Sedia Ada</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>1569.14</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.759347682475,1.460635617960198,0 103.7593850019007,1.460672415554289,0 103.7593124914865,1.46077179381555,0 103.7591665328032,1.460935367626486,0 103.7588895309942,1.460678270581832,0 103.7591245356026,1.460427720497872,0 103.7591465227989,1.460447440413932,0 103.759347682475,1.460635617960198,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor5</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Sedia Ada</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>2101.82</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7591665328032,1.460935367626486,0 103.7593451943339,1.461100574284,0 103.7594555825942,1.461203465231922,0 103.7594903004264,1.461242287638771,0 103.7592932821743,1.461396968764519,0 103.7588036961173,1.460813518245461,0 103.7587563063912,1.460757042833754,0 103.7588592544643,1.460649809185393,0 103.7588895309942,1.460678270581832,0 103.7591665328032,1.460935367626486,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor10</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Sedia Ada</value></Data>
+					<Data name="Notes"><value>Wisma EPF</value></Data>
+					<Data name="Area__m2_"><value>4388.15</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7592932821743,1.461396968764519,0 103.7589555321337,1.461758815661125,0 103.7584940860489,1.461118655803442,0 103.7588036961173,1.460813518245461,0 103.7592932821743,1.461396968764519,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor24</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Cadangan</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>492.599</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7606604727588,1.461187345444017,0 103.7606271569654,1.460741841228819,0 103.7607271720139,1.460742893772391,0 103.7607427504955,1.461171950989186,0 103.7606604727588,1.461187345444017,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor24</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Cadangan</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>413.661</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7605702479955,1.46120611850884,0 103.7605700679921,1.460743464678793,0 103.7606271569654,1.460741841228819,0 103.7606604727588,1.461187345444017,0 103.7605702479955,1.46120611850884,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor24</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Cadangan</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>575.12</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7604715127305,1.461218476906065,0 103.7604689465776,1.460745903541825,0 103.7605700679921,1.460743464678793,0 103.7605702479955,1.46120611850884,0 103.7604715127305,1.461218476906065,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor24</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Cadangan</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>1640.49</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.760178674505,1.461203882487712,0 103.7601803361725,1.460759315711,0 103.7604689465776,1.460745903541825,0 103.7604715127305,1.461218476906065,0 103.760178674505,1.461203882487712,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor24</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Cadangan</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>1325.56</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7599322465,1.461197500899294,0 103.7599349210714,1.460765983403518,0 103.7601803361725,1.460759315711,0 103.760178674505,1.461203882487712,0 103.7599322465,1.461197500899294,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor24</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Cadangan</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>398.086</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.759834033715,1.461192199482868,0 103.7598822547832,1.460767367887845,0 103.7599349210714,1.460765983403518,0 103.7599322465,1.461197500899294,0 103.759834033715,1.461192199482868,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor24</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Cadangan</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>922.256</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7596272417302,1.461194822190959,0 103.7594903004264,1.461242287638771,0 103.7594555825942,1.461203465231922,0 103.7596279356362,1.461018111053076,0 103.7597882428895,1.460843431412124,0 103.759859270329,1.46076543513169,0 103.7597974006597,1.461190223572832,0 103.7596272417302,1.461194822190959,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor24</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Cadangan</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>1664.55</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.759859270329,1.46076543513169,0 103.7601795548259,1.460429540722044,0 103.7606379233715,1.460716138458547,0 103.7607271720139,1.460742893772391,0 103.7606271569654,1.460741841228819,0 103.7605700679921,1.460743464678793,0 103.7604689465776,1.460745903541825,0 103.7601803361725,1.460759315711,0 103.7599349210714,1.460765983403518,0 103.7598822547832,1.460767367887845,0 103.759859270329,1.46076543513169,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor24</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Cadangan</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>1000.07</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7600578853099,1.460557140140075,0 103.7597529927096,1.460267349105027,0 103.7597537554073,1.460159877780547,0 103.7597374702163,1.460114334563909,0 103.7597641909374,1.460119908729598,0 103.7598842517317,1.460157751148197,0 103.7601795548259,1.460429540722044,0 103.7600578853099,1.460557140140075,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor24</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Cadangan</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>652.3</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7597546150147,1.460578219650892,0 103.7598814792794,1.460428870036017,0 103.7597437948939,1.460297999884141,0 103.7597529927096,1.460267349105027,0 103.7600578853099,1.460557140140075,0 103.7599031052922,1.460719463763578,0 103.7597546150147,1.460578219650892,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor24</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Cadangan</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>542.526</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7597882428895,1.460843431412124,0 103.7596849987659,1.460746566005828,0 103.7596330257168,1.460798474190139,0 103.7594992212455,1.460670966649014,0 103.75952292884,1.460645775088736,0 103.7596093646999,1.460728143220091,0 103.7597546150147,1.460578219650892,0 103.7599031052922,1.460719463763578,0 103.7597882428895,1.460843431412124,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor24</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Cadangan</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>477.207</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7598814792794,1.460428870036017,0 103.7597546150147,1.460578219650892,0 103.759736005714,1.460597427685015,0 103.7596220298787,1.460488814017835,0 103.7597437948939,1.460297999884141,0 103.7598814792794,1.460428870036017,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor24</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Cadangan</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>317.95</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.759736005714,1.460597427685015,0 103.7596093646999,1.460728143220091,0 103.75952292884,1.460645775088736,0 103.7595542670358,1.460615221394921,0 103.7595364263147,1.460601497013769,0 103.7596220298787,1.460488814017835,0 103.759736005714,1.460597427685015,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor24</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Cadangan</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>543.661</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7596279356362,1.461018111053076,0 103.7595046659716,1.460903781154888,0 103.7595875977859,1.460804269947014,0 103.7594757823204,1.460696542907725,0 103.7594992212455,1.460670966649014,0 103.7596330257168,1.460798474190139,0 103.7596849987659,1.460746566005828,0 103.7597882428895,1.460843431412124,0 103.7596279356362,1.461018111053076,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor24</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Cadangan</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>496.425</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7596279356362,1.461018111053076,0 103.7594555825942,1.461203465231922,0 103.7593451943339,1.461100574284,0 103.7595046659716,1.460903781154888,0 103.7596279356362,1.461018111053076,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor24</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Cadangan</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>410.606</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7595875977859,1.460804269947014,0 103.7595046659716,1.460903781154888,0 103.7594703581161,1.460946118155393,0 103.7593409982401,1.460826911290054,0 103.759454229877,1.460677237835264,0 103.7594757823204,1.460696542907725,0 103.7595875977859,1.460804269947014,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor24</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Cadangan</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>404.981</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7594703581161,1.460946118155393,0 103.7593640305164,1.461077329831397,0 103.759217840365,1.460936295336315,0 103.7593280971412,1.460815521327321,0 103.7593409982401,1.460826911290054,0 103.7594703581161,1.460946118155393,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor32</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Sedia Ada</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>1817.94</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7626626690447,1.457119164699781,0 103.7629672037188,1.45723558725062,0 103.7628010635822,1.457655824132233,0 103.762495464009,1.457541324687068,0 103.7626626690447,1.457119164699781,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#falseColor18</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Pern"><value>Perniagaan Sedia Ada</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>2424.21</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7631763154148,1.456722167794271,0 103.7629777909948,1.457192670655463,0 103.7626586883866,1.456966220716263,0 103.7628210847686,1.456542077477612,0 103.7628277113568,1.456524794619347,0 103.7630452558579,1.456621301811185,0 103.7631820122985,1.456708418890456,0 103.7631763154148,1.456722167794271,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

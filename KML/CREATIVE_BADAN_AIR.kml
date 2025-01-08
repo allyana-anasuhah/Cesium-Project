@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CREATIVE_BADAN_AIR</name>
+	
+	<Style id="falseColor">
+		
+		<PolyStyle>
+			<color>ffffff55</color>
+		</PolyStyle>
+	</Style>
+	<Style id="falseColor0">
+		
+		<PolyStyle>
+			<color>ffffff55</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="falseColor1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#falseColor</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#falseColor0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder id="layer 0">
+		<name>CREATIVE_BADAN_AIR</name>
+		<Placemark>
+			<styleUrl>#falseColor1</styleUrl>
+			<ExtendedData>
+				
+					<Data name="Jenis_Bada"><value>Laut / Sungai</value></Data>
+					<Data name="Notes"><value></value></Data>
+					<Data name="Area__m2_"><value>722.373</value></Data>
+				
+			</ExtendedData>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							103.7649293813137,1.458428949571342,0 103.7649946422083,1.458464697115587,0 103.7646185815674,1.459159938470953,0 103.7645539879516,1.45912333283555,0 103.7649293813137,1.458428949571342,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
