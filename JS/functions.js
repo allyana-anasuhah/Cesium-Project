@@ -444,6 +444,7 @@ $(document).ready(function() {
 		$.ajax({
 			url: 'postAPI.php', // The PHP file that will handle the upload
 			type: 'POST',
+			dataType: "JSON",
 			data: formData,
 			contentType: false, // Don't set any content type header
 			processData: false, // Don't process the data
