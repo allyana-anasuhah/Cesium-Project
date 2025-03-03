@@ -20,6 +20,7 @@ async function LoadKMLData(URL) {
 	viewer.flyTo(mykml.entities)
 
 	thematicData.landEntities = mykml.entities.values;
+	extrusion(URL)
 	return mykml
 }
 
@@ -422,6 +423,104 @@ function getListOfLot(){
 	});
 }
 
+function extrusion(URL){
+	
+	Cesium.KmlDataSource.load(URL, {
+		camera: viewer.scene.camera,
+		canvas: viewer.scene.canvas,
+		clampToGround: false // Set to false for extrusion
+	}).then((dataSource) => {
+		viewer.dataSources.add(dataSource);
+	
+		// Create a ScreenSpaceEventHandler for mouse click events
+		const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
+
+		handler.setInputAction((event) => {
+			console.log("in handler")
+			// Use scene.pick to detect which entity was clicked
+			const pickedObject = viewer.scene.pick(event.position);
+
+			console.log("----")
+			console.log(pickedObject)
+			
+			// Check if the clicked object is a polygon
+			if (Cesium.defined(pickedObject) && pickedObject.id.polygon) {
+				const entity = pickedObject.id; // The selected entity (polygon)
+				const attributes = getEntityAttributes(entity);
+
+				console.log(attributes)
+
+				// console.log(entity.description._value)
+				const name = (attributes["category"]) ? (attributes["category"]) : '';
+        		const description = (attributes["dwg_ref"]) ? attributes["dwg_ref"] : "No description available";
+				const lotId = (attributes["LOT"]) ? attributes["LOT"] : '';
+				const date = (attributes["entry_date"]) ? attributes["entry_date"] : '';
+				const height = entity.polygon.extrudedHeight ? entity.polygon.extrudedHeight.getValue() : "N/A";
+				
+				// Apply extrusion to the selected polygon
+				if (entity.polygon) {
+
+					 // Check if extrusion height is already set, if not, set it
+					if (!Cesium.defined(entity.polygon.extrudedHeight)) {
+                        entity.polygon.extrudedHeight = new Cesium.ConstantProperty(0); // Default to no extrusion (0 meters)
+                    }
+
+					const currentHeight = entity.polygon.extrudedHeight.getValue();
+					const newHeight = currentHeight ? 0 : 200; // Toggle extrusion height (0 means no extrusion)
+
+					// Toggle the extrusion height based on current state
+					entity.polygon.extrudedHeight = new Cesium.ConstantProperty(newHeight);
+					entity.polygon.material = Cesium.Color.RED.withAlpha(0.5); // Set color (optional)
+				}
+
+				// Update the info div
+				const infoDiv = document.getElementById("polygon-info");
+				infoDiv.innerHTML = `
+						<b>Name:</b> ${name} <br>
+						<b>Description:</b> ${description} <br>
+						<b>Lot ID:</b> ${lotId} <br>
+						<b>Date:</b> ${date} <br>
+					`;
+				infoDiv.style.display = "block";
+		
+				// Position info box near mouse click
+				infoDiv.style.left = `${event.position.x + 10}px`;
+				infoDiv.style.top = `${event.position.y + 10}px`;
+			}else {
+				document.getElementById("polygon-info").style.display = "none";
+			}
+		}, Cesium.ScreenSpaceEventType.LEFT_CLICK);
+	});
+	
+}
+
+function getEntityAttributes(entity) {
+    if (!entity || !entity.description || !entity.description._value) {
+        console.log("No description found");
+        return {};
+    }
+
+    // Parse the HTML content
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(entity.description._value, "text/html");
+
+    // Select all table rows
+    const rows = doc.querySelectorAll("table tr");
+    let attributes = {};
+
+    // Iterate through rows and extract key-value pairs
+    rows.forEach((row) => {
+        const columns = row.querySelectorAll("th, td");
+        if (columns.length === 2) {
+            const key = columns[0].textContent.trim();
+            const value = columns[1].textContent.trim();
+            attributes[key] = value;
+        }
+    });
+
+    return attributes;
+}
+
 $(document).ready(function() {
 
 	getListOfLot()
@@ -432,7 +531,13 @@ $(document).ready(function() {
 		var kmlName = $('#kmlName').val();
 		var kmlType = $('#kmlType').val();
 		var structureType = $('#structureType').val();
-		var fileData = $('#fileUpload')[0].files[0];
+		// var fileData = $('#fileUpload')[0].files[0];
+
+		var fileData = $('#fileUpload')[0].files[0];  // Make sure you have selected a file
+		if (!fileData) {
+			console.log("No file selected");
+			return;
+		}
 
 		var formData = new FormData();
 		formData.append('kmlName', kmlName);
