@@ -2,6 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="./asset/Twinsights_brand_dark_inverse.png">
     <title>Cesium Projects</title>
     <link href="CesiumCore/Widgets/widgets.css" rel="stylesheet">                 <!--     CSS for cesium map-->
     <script src="CesiumCore/Cesium.js"></script>                                 <!--     JS for cesium map-->
@@ -322,6 +323,8 @@
 			</div>
 		</div>
 	</div>
+
+	<div id="polygon-info"></div>
 	
 	 <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
 </body>
@@ -336,6 +339,7 @@
 		baseLayerPicker: false,
 		timeline: false,
 		contextOptions: {
+			requestWebGL1: true,
 			webgl: { preserveDrawingBuffer: true }
 		},
 		animation: false,
@@ -347,7 +351,7 @@
 			mapStyle: Cesium.BingMapsStyle.AERIAL
 		}),
 		navigationHelpButton: false,
-		infoBox: true,
+		infoBox: false,
 		fullscreenButton: false,
 		mapProjection: new Cesium.GeographicProjection(Cesium.Ellipsoid.WGS84),
 		selectionIndicator: false
@@ -525,5 +529,16 @@
 		color: black;
 		text-decoration: none;
 		cursor: pointer;
+	}
+
+	#polygon-info{
+		display: none;
+		position: absolute;
+		background: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+		color: black; /* Black text */
+		padding: 10px;
+		border-radius: 5px;
+		pointer-events: none; /* Ensures it doesn't block clicks */
+		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Optional shadow */
 	}
 </style>
